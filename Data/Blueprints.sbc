@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BP_40x127S</SubtypeId>
+            </Id>
+            <DisplayName>CJHV-40x127mm Standard Rounds</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\40X127mm_VULCAN_Standard.dds</Icon>
+            <Prerequisites>
+                <Item Amount="115" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="32" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="18" TypeId="Ingot" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="40x127_VULCAN" />
+            <BaseProductionTimeInSeconds>25</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BP_40x127DUR</SubtypeId>
+            </Id>
+            <DisplayName>CJHV-40x127mm Depleted Uranium Rounds</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\40X127mm_VULCAN_DUR.dds</Icon>
+            <Prerequisites>
+                <Item Amount="115" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="32" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="18" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="40x127_VULCAN_DUR" />
+            <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <!-- 125MM SHELLS -->
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BP_125APBC</SubtypeId>
+            </Id>
+            <DisplayName>APBC-125 - Armor Piercing Ballistic Cap 125mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\APBC_ArmorPiercingBallisticCap_300mm_Shell.dds</Icon>
+            <Prerequisites>
+                <Item Amount="65" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="AmmoMagazine" SubtypeId="APBC_125MM_Shell" />
+            <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BP_125HESH</SubtypeId>
+            </Id>
+            <DisplayName>HESH-125 - High Explosive Squashed Head 125mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\HESH_HighExplosiveSquashedHead_125mm_Shell.dds</Icon>
+            <Prerequisites>
+                <Item Amount="65" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Uranium" />
+            </Prerequisites>
+            <Result Amount="5" TypeId="AmmoMagazine" SubtypeId="HESH_125MM_Shell" />
+            <BaseProductionTimeInSeconds>55</BaseProductionTimeInSeconds>
+        </Blueprint>
+    </Blueprints>
+</Definitions>

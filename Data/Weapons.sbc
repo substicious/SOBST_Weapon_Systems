@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Weapons>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>125MainBattleCannons</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="WepLargeCalibreShot" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.05</DeviateShotAngle>
+            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="APBC_125MM_Shell" />
+            </AmmoMagazines>
+            <ReloadTime>5000</ReloadTime>
+        </Weapon>
+
+        <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>VULCAN_PDC</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="3000" ShootSoundName="30mmChaingunShot"/>
+      <ReleaseTimeAfterFire>102</ReleaseTimeAfterFire>
+	  <DeviateShotAngle>0.2</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>23</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="40x127_VULCAN" />
+        <AmmoMagazine Subtype="40x127_VULCAN_DUR" />
+        
+      </AmmoMagazines>
+      <ReloadTime>5000</ReloadTime>
+    </Weapon>
+
+    </Weapons>
+
+</Definitions>

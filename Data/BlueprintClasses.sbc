@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   <BlueprintClassEntries> 
+		<!--AMMUNITION-->
+        <Entry Class="Consumables" BlueprintSubtypeId="BP_40x127S" />
+        <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_40x127S" />
+        <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_40x127DUR" />
+        <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_125APBC" />
+        <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_125HESH" />
+        <!--BLOCKS-->
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeGatlingTurret/VULCAN_PointDefenseCannon" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/SIDEKICK_MBC125" />
+    </BlueprintClassEntries>
+</Definitions>

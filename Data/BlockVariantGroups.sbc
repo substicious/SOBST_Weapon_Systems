@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>	
+	
+        <!-- 125mm Main Battle Cannons Weapons -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponsTurretsGroup" />
+            <Icon>Textures\GUI\Icons\SIDEKICK_MBC125.dds</Icon>
+            <DisplayName>125mm Main Battle Cannons</DisplayName>
+            <Description></Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125" />
+                <!-- <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125TWIN" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125TRI" /> -->
+            </Blocks>
+        </BlockVariantGroup>
+	
+    </BlockVariantGroups>
+</Definitions>

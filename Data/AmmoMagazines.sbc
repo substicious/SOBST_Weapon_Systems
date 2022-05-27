@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <AmmoMagazines>
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>APBC_125MM_Shell</SubtypeId>
+            </Id>
+            <DisplayName>APBC-125 - Armor Piercing Ballistic Cap 125mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\APBC_ArmorPiercingBallisticCap_300mm_Shell.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>0.125</X>
+                <Y>0.6</Y>
+                <Z>0.125</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>22</Volume>
+            <Model>Models\Ammo\APBC_ArmorPiercingBallisticCap_125mm_Shell.mwm</Model>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="APBC_125MM_Shell" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>HESH_125MM_Shell</SubtypeId>
+            </Id>
+            <DisplayName>HESH-125 - High Explosive Squashed Head 125mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\HESH_HighExplosiveSquashedHead_125mm_Shell.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>0.125</X>
+                <Y>0.6</Y>
+                <Z>0.125</Z>
+            </Size>
+            <Mass>13</Mass>
+            <Volume>22</Volume>
+            <Model>Models\Ammo\HESH_HighExplosiveSquashedHead_125mm_Shell.mwm</Model>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="HESH_125MM_Shell" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>40x127_VULCAN</SubtypeId>
+            </Id>
+            <DisplayName>CJHV-40x127mm Standard Rounds</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\40X127mm_VULCAN_Standard.dds</Icon>
+            <Size>
+                <X>0.125</X>
+                <Y>0.6</Y>
+                <Z>0.125</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>22</Volume>
+            <Model>Models\Weapons\Ammo_Box.mwm</Model>
+            <Capacity>2400</Capacity>
+            <AmmoDefinitionId Subtype="40x127_VULCAN" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumOfferAmount>50</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>40x127_VULCAN_DUR</SubtypeId>
+            </Id>
+            <DisplayName>CJHV-40x127mm Depleted Uranium Rounds</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\40X127mm_VULCAN_DUR.dds</Icon>
+            <Size>
+                <X>0.125</X>
+                <Y>0.6</Y>
+                <Z>0.125</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>22</Volume>
+            <Model>Models\Weapons\Ammo_Box.mwm</Model>
+            <Capacity>2400</Capacity>
+            <AmmoDefinitionId Subtype="40x127_VULCAN_DUR" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumOfferAmount>50</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+        </AmmoMagazine>
+    </AmmoMagazines>
+</Definitions>

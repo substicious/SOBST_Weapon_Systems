@@ -1,0 +1,59 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CategoryClasses>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+            <Name>LargeBlocks</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+            </ItemIds>
+        </Category>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+            <Name>Weapons</Name>
+            <StrictSearch>true</StrictSearch>
+            <ItemIds>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+            </ItemIds>
+        </Category>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+            <Name>ShipWeapons</Name>
+            <SearchBlocks>false</SearchBlocks>
+            <IsShipCategory>true</IsShipCategory>
+            <IsBlockCategory>false</IsBlockCategory>
+            <IsToolCategory>true</IsToolCategory>
+            <ItemIds>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+            </ItemIds>
+        </Category>
+        <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+            <Id>
+                <TypeId>GuiBlockCategoryDefinition</TypeId>
+                <SubtypeId/>
+            </Id>
+            <DisplayName>SOBST Military Industries</DisplayName>
+            <Name>SOBSTMilitaryIndustries</Name>
+            <ItemIds>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+            </ItemIds>
+        </Category>
+    </CategoryClasses>
+</Definitions>

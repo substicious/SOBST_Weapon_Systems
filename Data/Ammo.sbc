@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Ammos>
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>APBC_125MM_Shell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>1067</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>5000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>3000</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>10</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>200</MissileMass>
+                <MissileExplosionRadius>4</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\APBC_ArmorPiercingBallisticCap_125mm_Shell.mwm</MissileModelName>
+                <MissileAcceleration>200</MissileAcceleration>
+                <MissileInitialSpeed>600</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>50000</MissileHealthPool>
+                <MissileExplosionDamage>4500</MissileExplosionDamage>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>HESH_125MM_Shell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>1067</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>5000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>3000</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>20</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>200</MissileMass>
+                <MissileExplosionRadius>12</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\HESH_HighExplosiveSquashedHead_125mm_Shell.mwm</MissileModelName>
+                <MissileAcceleration>200</MissileAcceleration>
+                <MissileInitialSpeed>600</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>50000</MissileHealthPool>
+                <MissileExplosionDamage>7500</MissileExplosionDamage>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>40x127_VULCAN</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>1200</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>1500</MaxTrajectory>
+                <BackkickForce>50</BackkickForce>
+                <PhysicalMaterial>GunBullet</PhysicalMaterial>
+            </BasicProperties>
+            <ProjectileProperties>
+                <ProjectileHitImpulse>150</ProjectileHitImpulse>
+                <ProjectileMassDamage>75</ProjectileMassDamage>
+                <ProjectileHealthDamage>150</ProjectileHealthDamage>
+                <ProjectileTrailScale>0.6</ProjectileTrailScale>
+                <ProjectileTrailColor x="3.84852" y="2.82518" z="1.20191" />
+                <ProjectileTrailProbability>1</ProjectileTrailProbability>
+            </ProjectileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>40x127_VULCAN_DUR</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>1200</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>1500</MaxTrajectory>
+                <BackkickForce>50</BackkickForce>
+                <PhysicalMaterial>GunBullet</PhysicalMaterial>
+            </BasicProperties>
+            <ProjectileProperties>
+                <ProjectileHitImpulse>450</ProjectileHitImpulse>
+                <ProjectileMassDamage>150</ProjectileMassDamage>
+                <ProjectileHealthDamage>350</ProjectileHealthDamage>
+                <ProjectileTrailScale>0.6</ProjectileTrailScale>
+                <ProjectileTrailColor x="0" y=".3" z="0" />
+                <ProjectileTrailProbability>1</ProjectileTrailProbability>
+            </ProjectileProperties>
+        </Ammo>
+    </Ammos>
+
+</Definitions>
