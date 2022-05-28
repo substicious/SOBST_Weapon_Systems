@@ -11,7 +11,8 @@ namespace Scripts
             // PartDefinitions(Your1stDefinition, Your2ndDefinition, Your3rdDefinition);
             // PartDefinitions includes both weapons and phantoms
             PartDefinitions(
-                            SIDEKICK_125MM
+                            SIDEKICK_125MM,
+                            VULCAN_TURRET
                             );
         }
     }
