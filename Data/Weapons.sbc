@@ -7,7 +7,7 @@
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>125MainBattleCannons</SubtypeId>
             </Id>
-            <MissileAmmoData RateOfFire="80" ShootSoundName="WepLargeCalibreShot" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <MissileAmmoData RateOfFire="80" ShootSoundName="125mmCannon" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
             <DeviateShotAngle>0.05</DeviateShotAngle>
             <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
             <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
@@ -26,7 +26,7 @@
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>VULCAN_PDC</SubtypeId>
       </Id>
-      <ProjectileAmmoData RateOfFire="3000" ShootSoundName="30mmChaingunShot"/>
+      <ProjectileAmmoData RateOfFire="2400" ShootSoundName="VULCAN_40MM"/>
       <ReleaseTimeAfterFire>102</ReleaseTimeAfterFire>
 	  <DeviateShotAngle>0.2</DeviateShotAngle>
       <MuzzleFlashLifeSpan>23</MuzzleFlashLifeSpan>
@@ -36,8 +36,31 @@
         <AmmoMagazine Subtype="40x127_VULCAN_DUR" />
         
       </AmmoMagazines>
-      <ReloadTime>5000</ReloadTime>
+      <ReloadTime>6000</ReloadTime>
     </Weapon>
+
+    <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>MARLIN_57MM</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="200" ShootSoundName="MARLIN_57MM" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="16" />
+            <DeviateShotAngle>0.05</DeviateShotAngle>
+            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_003" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_004" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="APBC_125MM_Shell" />
+            </AmmoMagazines>
+            <ReloadTime>5000</ReloadTime>
+        </Weapon>
+
 
     </Weapons>
 
