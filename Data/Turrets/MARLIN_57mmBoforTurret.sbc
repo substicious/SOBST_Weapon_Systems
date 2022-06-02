@@ -6,8 +6,8 @@
 				<TypeId>LargeMissileTurret</TypeId>
 				<SubtypeId>MARLIN_57mmBoforTurret</SubtypeId>
 			</Id>
-			<DisplayName>{LOC:DisplayName_MARLIN_57mmBoforTurret}</DisplayName>
-			<Description>{LOC:Description_MARLIN_57mmBoforTurret}</Description>
+			<DisplayName>"MARLIN" 57mm Bofor Turret</DisplayName>
+			<Description></Description>
 			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>
