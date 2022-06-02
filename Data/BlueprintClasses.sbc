@@ -9,6 +9,7 @@
         <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_125HESH" />
         <!--BLOCKS-->
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeGatlingTurret/VULCAN_PointDefenseCannon" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/MARLIN_57mmBoforTurret" />
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/SIDEKICK_MBC125" />
     </BlueprintClassEntries>
 </Definitions>

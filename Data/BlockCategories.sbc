@@ -12,6 +12,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -25,6 +26,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -41,6 +43,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -53,6 +56,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
             </ItemIds>
         </Category>
     </CategoryClasses>
