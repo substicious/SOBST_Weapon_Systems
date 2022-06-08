@@ -156,7 +156,32 @@
         </Ammo>
         
 
-
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>HESH370</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>2796</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>8000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>45000</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>90</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>800</MissileMass>
+                <MissileExplosionRadius>65</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\HESH370_GOLIATH_Shell.mwm</MissileModelName>
+                <MissileAcceleration>2796</MissileAcceleration>
+                <MissileInitialSpeed>2796</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>112000</MissileHealthPool>
+                <MissileExplosionDamage>32000</MissileExplosionDamage>
+                <MissileTrailEffect>LargeCalibreGun_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
     </Ammos>
 
 </Definitions>

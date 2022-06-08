@@ -7,7 +7,9 @@
 				<SubtypeId>GOLIATH_Fixed_370_AutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"GOLIATH" 370mm Fixed AutoCannon</DisplayName>
-			<Description>{LOC:Description_GOLIATH_Fixed_370_AutoCannon}</Description>
+			<Description>Following the end of the war between Redwood Industries and the Green Drone Armada, SOBST Military Industries began the task of designing and prototyping new and improved weapons which can be utilised for the protection of worlds and civilisations. 
+
+From this the GOLIATH was born. Using GDA tech to enhance the stealth and guidance systems, the 370mm shell packs a punch from a few configurations of the payloads.</Description>
 			<Icon>Textures\GUI\Icons\GOLIATH_Fixed_370_AutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -30,8 +32,8 @@
             <MirroringZ>Y</MirroringZ>
             <Center x="0" y="0" z="4" />
 			<BuildTimeSeconds>30</BuildTimeSeconds>
-            <EdgeType>Light</EdgeType>
-            <WeaponDefinitionId Subtype="125MainBattleCannons" />
+            <EdgeType>Heavy</EdgeType>
+            <WeaponDefinitionId Subtype="GOLIATH_370" />
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
             <InventoryMaxVolume>1.14</InventoryMaxVolume>
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>

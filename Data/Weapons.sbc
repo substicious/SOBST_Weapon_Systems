@@ -41,6 +41,25 @@
         </Weapon>
 
         <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>GOLIATH_370</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="GOLIATH_370" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.05</DeviateShotAngle>
+            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>120</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="HESH_370_GOLIATH" />
+            </AmmoMagazines>
+            <ReloadTime>8000</ReloadTime>
+        </Weapon>
+
+        <Weapon>
       <Id>
         <TypeId>WeaponDefinition</TypeId>
         <SubtypeId>VULCAN_PDC</SubtypeId>

@@ -388,10 +388,10 @@
 	<Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
-        <SubtypeId>Real400Shot</SubtypeId>
+        <SubtypeId>GOLIATH_370</SubtypeId>
       </Id>
       <Category>SHOT</Category>
-      <MaxDistance>800</MaxDistance>
+      <MaxDistance>1000</MaxDistance>
       <PreventSynchronization>0</PreventSynchronization>
 	  <DistantSounds>
         <DistantSound DistanceCrossfade="10" Distance="800" Sound="400Shot"/>
@@ -399,7 +399,7 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>15</DynamicMusicAmount>
       <Loopable>false</Loopable>
-      <Volume>4</Volume>
+      <Volume>5</Volume>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Realistic\400mm_SHOT.wav</Start>

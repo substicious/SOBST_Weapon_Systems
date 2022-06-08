@@ -141,5 +141,27 @@
             <MinimumOrderAmount>100</MinimumOrderAmount>
             <MaximumOrderAmount>2000</MaximumOrderAmount>
         </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>HESH_370_GOLIATH</SubtypeId>
+            </Id>
+            <DisplayName>HESH-370 - 370x1160mm High Explosive Squashed Head Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\HESH370_GOLIATH_Shell.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>0.370</X>
+                <Y>1.160</Y>
+                <Z>0.370</Z>
+            </Size>
+            <Mass>98</Mass>
+            <Volume>52</Volume>
+            <Model>Models\Ammo\HESH370_GOLIATH_Shell.mwm</Model>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="HESH370" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
     </AmmoMagazines>
 </Definitions>
