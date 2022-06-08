@@ -91,5 +91,55 @@
             <MinimumOrderAmount>100</MinimumOrderAmount>
             <MaximumOrderAmount>2000</MaximumOrderAmount>
         </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>MARLIN_57_HESH</SubtypeId>
+            </Id>
+            <DisplayName>57x438mm HESH Ammo Clip</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\MARLIN_57x438_HighExplosiveClip.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>0.125</X>
+                <Y>0.6</Y>
+                <Z>0.125</Z>
+            </Size>
+            <Mass>25</Mass>
+            <Volume>22</Volume>
+            <Model>Models\Ammo\MARLIN_57x438_HighExplosiveClip.mwm</Model>
+            <Capacity>16</Capacity>
+            <AmmoDefinitionId Subtype="57_HESH_Shell" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumOfferAmount>50</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>CHURCHHILL_Type25</SubtypeId>
+            </Id>
+            <DisplayName>TYPE-25 - Standard 25x131mm CHURCHHILL Ammo Box</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\Type25_CHURCHHILL_25x131_AmmoBox.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>0.125</X>
+                <Y>0.6</Y>
+                <Z>0.125</Z>
+            </Size>
+            <Mass>34</Mass>
+            <Volume>26</Volume>
+            <Model>Models\Ammo\TYPE25_25x131_CHURCHHILL.mwm</Model>
+            <Capacity>84</Capacity>
+            <AmmoDefinitionId Subtype="TYPE_25" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+            <MinimumOfferAmount>50</MinimumOfferAmount>
+            <MaximumOfferAmount>500</MaximumOfferAmount>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>2000</MaximumOrderAmount>
+        </AmmoMagazine>
     </AmmoMagazines>
 </Definitions>

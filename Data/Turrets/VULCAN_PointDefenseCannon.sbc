@@ -10,7 +10,7 @@
 			<Description>A high rate of fire along with a high ammo drum.
 
 Ammo: 40x127mm Copper Jacket High Velocity Rounds
-      40x127mm Copper Jacket High Velocity Depleted Uranium Rounds
+            40x127mm Copper Jacket High Velocity Depleted Uranium Rounds
 
 Range: 1500m</Description>
 			<Icon>Textures\GUI\Icons\VULCAN_PointDefenseCannon.dds</Icon>
@@ -61,8 +61,8 @@ Range: 1500m</Description>
       <MaxElevationDegrees>80</MaxElevationDegrees>
       <MinAzimuthDegrees>-180</MinAzimuthDegrees>
       <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-      <RotationSpeed>0.008</RotationSpeed>
-      <ElevationSpeed>0.008</ElevationSpeed>
+      <RotationSpeed>0.005</RotationSpeed>
+      <ElevationSpeed>0.005</ElevationSpeed>
       <IdleRotation>false</IdleRotation>
       <MaxRangeMeters>1500</MaxRangeMeters>
       <MinFov>0.1</MinFov>
@@ -76,7 +76,7 @@ Range: 1500m</Description>
 	    <WeaponDefinitionId Subtype="VULCAN_PDC" />
       <UpCameraOffset>0.275</UpCameraOffset>
 			<ForwardCameraOffset>0.6</ForwardCameraOffset>
-      <AmmoPullAmountPerTick>3</AmmoPullAmountPerTick>
+      <AmmoPullAmountPerTick>6</AmmoPullAmountPerTick>
       <InventoryFillFactorMin>.25</InventoryFillFactorMin>
       <InventoryFillFactorMax>.5</InventoryFillFactorMax>
       <TieredUpdateTimes>

@@ -8,7 +8,7 @@
 			</Id>
 			<DisplayName>"MARLIN" 57mm Bofor Turret</DisplayName>
 			<Description></Description>
-			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+			<Icon>Textures\GUI\Icons\MARLIN_57mmBoforTurret.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -17,9 +17,15 @@
 			<Model>Models\MARLIN_57mmBoforTurret\MARLIN_57mmBoforTurret.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
+				<Component Subtype="SteelPlate" Count="20" />
+				<Component Subtype="Construction" Count="50" />
+				<Component Subtype="SmallTube" Count="20" />
+				<Component Subtype="Motor" Count="24" />
+				<Component Subtype="Computer" Count="20" />
+				<Component Subtype="Construction" Count="25" />
+				<Component Subtype="SteelPlate" Count="45" />
 			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+      		<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
@@ -62,8 +68,8 @@
 			<DestroySound>WepSmallWarheadExpl</DestroySound>
 			<PCU>125</PCU>
 			<IsAirTight>false</IsAirTight>
-            <UpCameraOffset>0</UpCameraOffset>
-			<ForwardCameraOffset>1.5</ForwardCameraOffset>
+            <UpCameraOffset>0.5</UpCameraOffset>
+			<ForwardCameraOffset>0.275</ForwardCameraOffset>
             <AIEnabled>true</AIEnabled>
 		</Definition>
 	</CubeBlocks>

@@ -20,6 +20,25 @@
             </AmmoMagazines>
             <ReloadTime>5000</ReloadTime>
         </Weapon>
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>Twin125</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="125mmCannon" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.05</DeviateShotAngle>
+            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="APBC_125MM_Shell" />
+            </AmmoMagazines>
+            <ReloadTime>5000</ReloadTime>
+        </Weapon>
 
         <Weapon>
       <Id>
@@ -40,27 +59,42 @@
     </Weapon>
 
     <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>MARLIN_57MM</SubtypeId>
-            </Id>
-            <MissileAmmoData RateOfFire="200" ShootSoundName="MARLIN_57MM" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="16" />
-            <DeviateShotAngle>0.05</DeviateShotAngle>
-            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
-            <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
-            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
-            <Effects>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_003" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_004" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-            </Effects>
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="APBC_125MM_Shell" />
-            </AmmoMagazines>
-            <ReloadTime>5000</ReloadTime>
-        </Weapon>
+        <Id>
+            <TypeId>WeaponDefinition</TypeId>
+            <SubtypeId>MARLIN_57MM</SubtypeId>
+        </Id>
+        <MissileAmmoData RateOfFire="200" ShootSoundName="MARLIN_57MM" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="16" />
+        <DeviateShotAngle>0.05</DeviateShotAngle>
+        <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+        <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+        <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+        <Effects>
+            <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            <Effect Action="Shoot" Dummy="Muzzle_Missile_003" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            <Effect Action="Shoot" Dummy="Muzzle_Missile_004" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+        </Effects>
+        <AmmoMagazines>
+            <AmmoMagazine Subtype="MARLIN_57_HESH" />
+        </AmmoMagazines>
+        <ReloadTime>5000</ReloadTime>
+    </Weapon>
 
+    <Weapon>
+        <Id>
+            <TypeId>WeaponDefinition</TypeId>
+            <SubtypeId>CHURCHHILL_25MM</SubtypeId>
+        </Id>
+        <MissileAmmoData RateOfFire="350" ShootSoundName="MARLIN_57MM" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="84" />
+        <DeviateShotAngle>0.02</DeviateShotAngle>
+        <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+        <MuzzleFlashLifeSpan>50</MuzzleFlashLifeSpan>
+        <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+        <AmmoMagazines>
+            <AmmoMagazine Subtype="CHURCHHILL_Type25" />
+        </AmmoMagazines>
+        <ReloadTime>6000</ReloadTime>
+    </Weapon>
 
     </Weapons>
 

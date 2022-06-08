@@ -7,9 +7,13 @@
         <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_40x127DUR" />
         <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_125APBC" />
         <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_125HESH" />
+        <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_57HESH" />
+        <Entry Class="EliteConsumables" BlueprintSubtypeId="BP_TYPE25" />
         <!--BLOCKS-->
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeGatlingTurret/VULCAN_PointDefenseCannon" />
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/MARLIN_57mmBoforTurret" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/CHURCHHILL_25mmAdenTurret" />
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/SIDEKICK_MBC125" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/THUNDER_125mmTwinAutocannon" />
     </BlueprintClassEntries>
 </Definitions>

@@ -10,8 +10,7 @@
             <Description></Description>
             <Blocks>
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125" />
-                <!-- <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125TWIN" />
-                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125TRI" /> -->
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="THUNDER_125mmTwinAutocannon" />
             </Blocks>
         </BlockVariantGroup>
         <!-- Turret Weapons -->
@@ -23,6 +22,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="VULCAN_PointDefenseCannon" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="MARLIN_57mmBoforTurret" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="CHURCHHILL_25mmAdenTurret" />
             </Blocks>
         </BlockVariantGroup>
 	

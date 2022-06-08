@@ -99,6 +99,64 @@
                 <ProjectileTrailProbability>1</ProjectileTrailProbability>
             </ProjectileProperties>
         </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>57_HESH_Shell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>1067</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>5000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>3000</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>20</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>200</MissileMass>
+                <MissileExplosionRadius>12</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\MARLIN_57x438_HighExplosiveShell.mwm</MissileModelName>
+                <MissileAcceleration>200</MissileAcceleration>
+                <MissileInitialSpeed>600</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>50000</MissileHealthPool>
+                <MissileExplosionDamage>7500</MissileExplosionDamage>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
+
+        <!-- || CHURCHHILL 25X131MM AMMO SHELLS || -->
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>TYPE_25</SubtypeId> <!-- || TYPE-25 25x131mm || -->
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>795</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>5000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>2930</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>20</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>200</MissileMass>
+                <MissileExplosionRadius>3</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\Type25_25x131_CHURCHHILL_Shell.mwm</MissileModelName>
+                <MissileAcceleration>200</MissileAcceleration>
+                <MissileInitialSpeed>600</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>5000</MissileHealthPool>
+                <MissileExplosionDamage>1250</MissileExplosionDamage>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
+        
+
+
     </Ammos>
 
 </Definitions>

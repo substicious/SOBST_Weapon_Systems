@@ -4,6 +4,75 @@
 
     <Sound>
       <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>MARLIN_57MM</SubtypeId>
+      </Id>
+      <Category>WEP_TURR</Category>
+      <MaxDistance>800</MaxDistance>
+      <PreventSynchronization>2</PreventSynchronization>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="20" distance="500" sound="ArcWepTurretMissileShotDistA" />
+        <DistantSound distanceCrossfade="10" distance="800" sound="ArcWepTurretMissileShotDistB" />
+      </DistantSounds>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <Volume>0.5</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Turrets\MARLIN_Fire.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>VULCAN_40MM</SubtypeId>
+      </Id>
+      <Category>WEP_TURR</Category>
+      <MaxDistance>1000</MaxDistance>
+      <PreventSynchronization>2</PreventSynchronization>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="20" distance="800" sound="ArcWepTurretMissileShotDistA" />
+        <DistantSound distanceCrossfade="10" distance="1000" sound="ArcWepTurretMissileShotDistB" />
+      </DistantSounds>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <Volume>0.5</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Turrets\VULCAN_Fire.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>125mmCannon</SubtypeId>
+      </Id>
+      <Category>WEP_TURR</Category>
+      <MaxDistance>1000</MaxDistance>
+      <PreventSynchronization>2</PreventSynchronization>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="10" distance="800" sound="3_900DistA" />
+        <DistantSound distanceCrossfade="10" distance="1000" sound="3_900DistB" />
+      </DistantSounds>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <Volume>1</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Cannons\125mm_Fire.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
         <TypeId>AudioDefinition</TypeId>
         <SubtypeId>300mmCannon</SubtypeId>
       </Id>

@@ -11,8 +11,11 @@
             <StrictSearch>true</StrictSearch>
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
-                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
+                <string></string>
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -25,8 +28,11 @@
             <StrictSearch>true</StrictSearch>
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
-                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
+                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string></string>
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -42,8 +48,11 @@
             <IsToolCategory>true</IsToolCategory>
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
-                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
+                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string></string>
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -55,8 +64,11 @@
             <Name>SOBSTMilitaryIndustries</Name>
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
-                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
+                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string></string>
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
             </ItemIds>
         </Category>
     </CategoryClasses>

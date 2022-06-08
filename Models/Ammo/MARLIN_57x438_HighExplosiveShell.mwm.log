@@ -1,0 +1,38 @@
+Running from: C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\Ammo 
+Command: D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Tools\MWMBuilder\MwmBuilder.exe /f /s:C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\Ammo /m:MARLIN_57x438_HighExplosiveShell*.fbx /o:C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\Ammo /x:D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials 
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\Armors.xml: 
+    Materialslib
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\Character.xml: 
+    Materialslib
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\enenra.xml: 
+    Materialslib
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\Foliage.xml: 
+    Materialslib
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\Items.xml: 
+    Materialslib
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\LODs.xml: 
+    Materialslib
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\Materials.xml: 
+    Materialslib
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\PlayerItems.xml: 
+    Materialslib
+D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials\Substicious.xml: 
+    Materialslib
+Material Libraries: 
+    Material libraries were successfully loaded from path: D:\SteamLibrary\steamapps\common\SpaceEngineersModSDK\Materials
+: 
+    **FileName: C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\Ammo\MARLIN_57x438_HighExplosiveShell.fbx
+: 
+    **Filename (without extension): MARLIN_57x438_HighExplosiveShell
+: 
+    **Directory Name: C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\Ammo
+: 
+    **Number of characters to cull: 83
+: 
+    **Culled Path: Models\Ammo
+Meshes: 
+    Found 5 meshe(s).
+Animations: 
+    Found 0 animation(s).
+C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\Ammo\MARLIN_57x438_HighExplosiveShell.fbx: 
+    : Finished in 0.2s
