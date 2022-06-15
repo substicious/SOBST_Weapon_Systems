@@ -155,7 +155,58 @@
             </MissileProperties>
         </Ammo>
         
-
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>APBC370</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>2796</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>8000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>45000</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>50</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>800</MissileMass>
+                <MissileExplosionRadius>35</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\APBC370_GOLIATH_Shell.mwm</MissileModelName>
+                <MissileAcceleration>2796</MissileAcceleration>
+                <MissileInitialSpeed>2796</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>100000</MissileHealthPool>
+                <MissileExplosionDamage>10000</MissileExplosionDamage>
+                <MissileTrailEffect>APBC_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>APDU370</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>3150</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>8000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>45000</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>80</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>800</MissileMass>
+                <MissileExplosionRadius>75</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\APDU370_GOLIATH_Shell.mwm</MissileModelName>
+                <MissileAcceleration>3150</MissileAcceleration>
+                <MissileInitialSpeed>3150</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>122000</MissileHealthPool>
+                <MissileExplosionDamage>42000</MissileExplosionDamage>
+                <MissileTrailEffect>APBC_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
         <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
@@ -179,7 +230,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>112000</MissileHealthPool>
                 <MissileExplosionDamage>32000</MissileExplosionDamage>
-                <MissileTrailEffect>LargeCalibreGun_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>APBC_Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
     </Ammos>

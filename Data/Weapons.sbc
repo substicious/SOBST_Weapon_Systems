@@ -54,6 +54,8 @@
                 <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
             </Effects>
             <AmmoMagazines>
+                <AmmoMagazine Subtype="APBC_370_GOLIATH" />
+                <AmmoMagazine Subtype="APDU_370_GOLIATH" />
                 <AmmoMagazine Subtype="HESH_370_GOLIATH" />
             </AmmoMagazines>
             <ReloadTime>8000</ReloadTime>

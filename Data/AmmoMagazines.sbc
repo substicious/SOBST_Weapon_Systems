@@ -141,6 +141,50 @@
             <MinimumOrderAmount>100</MinimumOrderAmount>
             <MaximumOrderAmount>2000</MaximumOrderAmount>
         </AmmoMagazine>
+        
+        <!-- || GOLIATH 370mm STATIC CANNON || -->
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>APBC_370_GOLIATH</SubtypeId>
+            </Id>
+            <DisplayName>APBC-370 - 370x1160mm Armor Piercing Ballistic Cap Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\APBC370_GOLIATH_Shell.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>0.370</X>
+                <Y>1.160</Y>
+                <Z>0.370</Z>
+            </Size>
+            <Mass>98</Mass>
+            <Volume>52</Volume>
+            <Model>Models\Ammo\APBC370_GOLIATH_Shell.mwm</Model>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="APBC370" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>APDU_370_GOLIATH</SubtypeId>
+            </Id>
+            <DisplayName>APDU-370 - 370x1160mm Armor Piercing Depleted Uranium Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\APDU370_GOLIATH_Shell.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>0.370</X>
+                <Y>1.160</Y>
+                <Z>0.370</Z>
+            </Size>
+            <Mass>98</Mass>
+            <Volume>52</Volume>
+            <Model>Models\Ammo\APDU370_GOLIATH_Shell.mwm</Model>
+            <Capacity>1</Capacity>
+            <AmmoDefinitionId Subtype="APDU370" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
 
         <AmmoMagazine>
             <Id>
