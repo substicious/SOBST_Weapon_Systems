@@ -10,8 +10,16 @@
             <Name>LargeBlocks</Name>
             <StrictSearch>true</StrictSearch>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PDC</string>
-                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
+                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
+
+                <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+                
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -23,8 +31,17 @@
             <Name>Weapons</Name>
             <StrictSearch>true</StrictSearch>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PDC</string>
-                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
+                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
+
+                <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+
+                <string>SmallGatlingGun/VULCAN_GatlingGun</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -39,8 +56,17 @@
             <IsBlockCategory>false</IsBlockCategory>
             <IsToolCategory>true</IsToolCategory>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PDC</string>
-                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
+                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
+
+                <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+
+                <string>SmallGatlingGun/VULCAN_GatlingGun</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -51,8 +77,17 @@
             <DisplayName>SOBST Military Industries</DisplayName>
             <Name>SOBSTMilitaryIndustries</Name>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PDC</string>
-                <string>LargeMissileTurret/SIDEKICK_MBC125</string>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
+                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
+
+                <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+
+                <string>SmallGatlingGun/VULCAN_GatlingGun</string>
             </ItemIds>
         </Category>
     </CategoryClasses>

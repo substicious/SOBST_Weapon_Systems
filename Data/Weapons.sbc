@@ -2,30 +2,30 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Weapons>
 
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>125MainBattleCannons</SubtypeId>
-            </Id>
-            <ProjectileAmmoData />
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Energy" />
-            </AmmoMagazines>
-            <ReloadTime>5000</ReloadTime>
-        </Weapon>
+      <Weapon>
+        <Id>
+            <TypeId>WeaponDefinition</TypeId>
+            <SubtypeId>125MainBattleCannons</SubtypeId>
+        </Id>
+        <ProjectileAmmoData />
+        <AmmoMagazines>
+            <AmmoMagazine Subtype="Energy" />
+        </AmmoMagazines>
+        <ReloadTime>5000</ReloadTime>
+      </Weapon>
 
-        <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>VULCAN_PDC</SubtypeId>
-      </Id>
-      <ProjectileAmmoData />
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="Energy" />
-      </AmmoMagazines>
-      <ReloadTime>5000</ReloadTime>
-    </Weapon>
+      <Weapon>
+        <Id>
+          <TypeId>WeaponDefinition</TypeId>
+          <SubtypeId>VULCAN_PDC</SubtypeId>
+        </Id>
+        <ProjectileAmmoData />
+        <AmmoMagazines>
+          <AmmoMagazine Subtype="Energy" />
+        </AmmoMagazines>
+        <ReloadTime>5000</ReloadTime>
+      </Weapon>
 
-    </Weapons>
+  </Weapons>
 
 </Definitions>
