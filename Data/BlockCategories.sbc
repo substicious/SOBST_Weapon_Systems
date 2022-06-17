@@ -10,7 +10,7 @@
             <Name>LargeBlocks</Name>
             <StrictSearch>true</StrictSearch>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeGatlingTurret/VULCAN_PDC</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
 
@@ -31,7 +31,7 @@
             <Name>Weapons</Name>
             <StrictSearch>true</StrictSearch>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeGatlingTurret/VULCAN_PDC</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
                 
@@ -56,7 +56,7 @@
             <IsBlockCategory>false</IsBlockCategory>
             <IsToolCategory>true</IsToolCategory>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeGatlingTurret/VULCAN_PDC</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
                 
@@ -77,7 +77,7 @@
             <DisplayName>SOBST Military Industries</DisplayName>
             <Name>SOBSTMilitaryIndustries</Name>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+                <string>LargeGatlingTurret/VULCAN_PDC</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
                 

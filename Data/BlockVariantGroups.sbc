@@ -21,7 +21,7 @@
             <DisplayName>Turrets</DisplayName>
             <Description></Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="VULCAN_PointDefenseCannon" />
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="VULCAN_PDC" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="MARLIN_57mmBoforTurret" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="CHURCHHILL_25mmAdenTurret" />
             </Blocks>
