@@ -11,12 +11,12 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="THUNDER_125mmTwinAutocannon" />
-                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="FIRESTORM_125mmTripleAutocannon" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="FIRESTORM_125mmTripleAutoCannon" />
             </Blocks>
         </BlockVariantGroup>
         <!-- Turret Weapons -->
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponsTurretsGroup" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="TurretsGroup" />
             <Icon>Textures\GUI\Icons\VULCAN_PointDefenseCannon.dds</Icon>
             <DisplayName>Turrets</DisplayName>
             <Description></Description>
