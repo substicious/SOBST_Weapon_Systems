@@ -42,7 +42,7 @@
 				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>FIRESTORM_125mmTripleAutoCannon</BlockPairName>
-			<WeaponDefinitionId Subtype="Triple125" />
+			<WeaponDefinitionId Subtype="125MainBattleCannons" />
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>

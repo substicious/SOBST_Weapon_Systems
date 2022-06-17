@@ -11,24 +11,26 @@ using static Scripts.Structure.WeaponDefinition.HardPointDef.HardwareDef.Hardwar
 namespace Scripts {   
     partial class Parts {
         // Don't edit above this line
-        WeaponDefinition SIDEKICK_125MM => new WeaponDefinition
+        WeaponDefinition FIRESTORM_125MM => new WeaponDefinition
         {
             Assignments = new ModelAssignmentsDef
             {
                 MountPoints = new[] {
                     new MountPointDef {
-                        SubtypeId = "SIDEKICK_125AutoCannon", // Block Subtypeid. Your Cubeblocks contain this information
+                        SubtypeId = "FIRESTORM_125mmTripleAutoCannon", // Block Subtypeid. Your Cubeblocks contain this information
                         SpinPartId = "None", // For weapons with a spinning barrel such as Gatling Guns. Subpart_Boomsticks must be written as Boomsticks.
                         MuzzlePartId = "MissileTurretBarrels", // The subpart where your muzzle empties are located. This is often the elevation subpart. Subpart_Boomsticks must be written as Boomsticks.
                         AzimuthPartId = "MissileTurretBase1", // Your Rotating Subpart, the bit that moves sideways.
                         ElevationPartId = "MissileTurretBarrels",// Your Elevating Subpart, that bit that moves up.
                         DurabilityMod = 0.35f, // GeneralDamageMultiplier, 0.25f = 25% damage taken.
-                        IconName = "Textures\\GUI\\Icons\\SIDEKICK_MBC125.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
+                        IconName = "Textures\\GUI\\Icons\\FIRESTORM_125mmTripleAutocannon.dds" // Overlay for block inventory slots, like reactors, refineries, etc.
                     },
                     
                  },
                 Muzzles = new[] {
-                    "Muzzle_Missile_001", // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
+                    "Muzzle_Missile_001",
+                    "Muzzle_Missile_002",
+                    "Muzzle_Missile_003" // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
                 },
                 Ejector = "", // Optional; empty from which to eject "shells" if specified.
                 Scope = "", // Where line of sight checks are performed from. Must be clear of block collision.
@@ -54,7 +56,7 @@ namespace Scripts {
             },
             HardPoint = new HardPointDef
             {
-                PartName = "SIDEKICK Main Battle Cannon 125mm", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
+                PartName = "\"FIRESTORM\" 125mm Triple AutoCannon", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
                 DeviateShotAngle = 0.05f, // Projectile inaccuracy in degrees.
                 AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Accurate, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
@@ -116,19 +118,19 @@ namespace Scripts {
                 },
                 Loading = new LoadingDef
                 {
-                    RateOfFire = 12, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
+                    RateOfFire = 48, // Set this to 3600 for beam weapons. This is how fast your Gun fires.
                     BarrelsPerShot = 1, // How many muzzles will fire a projectile per fire event.
                     TrajectilesPerBarrel = 1, // Number of projectiles per muzzle per fire event.
                     SkipBarrels = 0, // Number of muzzles to skip after each fire event.
                     ReloadTime = 300, // Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
-                    MagsToLoad = 1, // Number of physical magazines to consume on reload.
+                    MagsToLoad = 3, // Number of physical magazines to consume on reload.
                     DelayUntilFire = 0, // How long the weapon waits before shooting after being told to fire. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     HeatPerShot = 0, // Heat generated per shot.
                     MaxHeat = 0, // Max heat before weapon enters cooldown (70% of max heat).
                     Cooldown = 0f, // Percentage of max heat to be under to start firing again after overheat; accepts 0 - 0.95
                     HeatSinkRate = 0, // Amount of heat lost per second.
                     DegradeRof = false, // Progressively lower rate of fire when over 80% heat threshold (80% of max heat).
-                    ShotsInBurst = 0, // Use this if you don't want the weapon to fire an entire physical magazine in one go. Should not be more than your magazine capacity.
+                    ShotsInBurst = 3, // Use this if you don't want the weapon to fire an entire physical magazine in one go. Should not be more than your magazine capacity.
                     DelayAfterBurst = 0, // How long to spend "reloading" after each burst. Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                     FireFull = false, // Whether the weapon should fire the full magazine (or the full burst instead if ShotsInBurst > 0), even if the target is lost or the player stops firing prematurely.
                     GiveUpAfter = false, // Whether the weapon should drop its current target and reacquire a new target after finishing its magazine or burst.
@@ -162,7 +164,7 @@ namespace Scripts {
                         {
                             Loop = false, // Set this to the same as in the particle sbc!
                             Restart = false, // Whether to end a looping effect instantly when firing stops.
-                            Scale = 1f, // Scale of effect.
+                            Scale = 0.3f, // Scale of effect.
                         },
                     },
                     Effect2 = new ParticleDef

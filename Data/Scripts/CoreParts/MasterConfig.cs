@@ -12,6 +12,8 @@ namespace Scripts
             // PartDefinitions includes both weapons and phantoms
             PartDefinitions(
                             SIDEKICK_125MM,
+                            THUNDER_125MM,
+                            FIRESTORM_125MM,
                             VULCAN_TURRET,
                             MARLIN_BoforTurret
                             );

@@ -42,7 +42,7 @@
 				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>THUNDER_125TAC</BlockPairName>
-            <WeaponDefinitionId Subtype="Twin125" />
+            <WeaponDefinitionId Subtype="125MainBattleCannons" />
             <EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
 			<OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>
