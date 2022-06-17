@@ -15,5 +15,6 @@
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/CHURCHHILL_25mmAdenTurret" />
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/SIDEKICK_MBC125" />
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/THUNDER_125mmTwinAutocannon" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/FIRESTORM_125mmTripleAutocannon" />
     </BlueprintClassEntries>
 </Definitions>

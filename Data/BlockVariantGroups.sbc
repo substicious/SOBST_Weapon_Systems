@@ -11,6 +11,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="THUNDER_125mmTwinAutocannon" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="FIRESTORM_125mmTripleAutocannon" />
             </Blocks>
         </BlockVariantGroup>
         <!-- Turret Weapons -->
