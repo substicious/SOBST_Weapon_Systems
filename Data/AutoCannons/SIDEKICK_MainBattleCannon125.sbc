@@ -41,7 +41,7 @@
 					<MinAllowed>0.01</MinAllowed>
 				</DynamicMode>
 			</VoxelPlacement>
-			<BlockPairName>SIDEKICK_MBC125</BlockPairName>
+			<BlockPairName>SIDEKICK_125AutoCannon</BlockPairName>
             <WeaponDefinitionId Subtype="125MainBattleCannons" />
             <EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>50</BuildTimeSeconds>

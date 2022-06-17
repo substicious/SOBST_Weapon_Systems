@@ -9,7 +9,7 @@
             <DisplayName>125mm AutoCannons</DisplayName>
             <Description></Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_MBC125" />
+                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="SIDEKICK_125AutoCannon" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="THUNDER_125mmTwinAutocannon" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="FIRESTORM_125mmTripleAutoCannon" />
             </Blocks>
@@ -24,6 +24,17 @@
                 <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="VULCAN_PointDefenseCannon" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="MARLIN_57mmBoforTurret" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="CHURCHHILL_25mmAdenTurret" />
+            </Blocks>
+        </BlockVariantGroup>
+        <!-- Static Weapons -->
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ShipWeaponStaticGroup" />
+            <Icon>Textures\GUI\Icons\GOLIATH_Fixed_370_AutoCannon.dds</Icon>
+            <DisplayName>Static Weaponary</DisplayName>
+            <Description></Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_SmallMissileLauncher" Subtype="GOLIATH_Fixed_370_AutoCannon" />
+                <Block Type="MyObjectBuilder_SmallGatlingGun" Subtype="VULCAN_GatlingGun" />
             </Blocks>
         </BlockVariantGroup>
 	
