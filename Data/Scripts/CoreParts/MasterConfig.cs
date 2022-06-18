@@ -15,7 +15,8 @@ namespace Scripts
                             THUNDER_125MM,
                             FIRESTORM_125MM,
                             VULCAN_TURRET,
-                            MARLIN_BoforTurret
+                            MARLIN_BoforTurret,
+                            CHURCHHILL_25mmAdenTurret
                             );
         }
     }

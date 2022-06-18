@@ -3,8 +3,8 @@
 	<CubeBlocks>
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
-        		<TypeId>LargeGatlingTurret</TypeId>
-				<SubtypeId>VULCAN_PDC</SubtypeId>
+        	<TypeId>LargeGatlingTurret</TypeId>
+				  <SubtypeId>VULCAN_PDC</SubtypeId>
 			</Id>
 			<DisplayName>"VULCAN" Point Defense Cannon</DisplayName>
 			<Description>A high rate of fire along with a high ammo drum.
@@ -47,12 +47,12 @@ Range: 1500m</Description>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-	<MirroringY>Z</MirroringY>
+	    <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>
-	  <InventoryMaxVolume>0.684</InventoryMaxVolume>
+	    <InventoryMaxVolume>0.684</InventoryMaxVolume>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
       <HiddenTargetingOptions>Friends</HiddenTargetingOptions>
