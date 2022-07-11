@@ -107,7 +107,7 @@
         <MissileAmmoData RateOfFire="200" ShootSoundName="MARLIN_57MM" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="16" />
         <DeviateShotAngle>0.05</DeviateShotAngle>
         <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
-        <MuzzleFlashLifeSpan>500</MuzzleFlashLifeSpan>
+        <MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
         <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
         <Effects>
             <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
@@ -135,6 +135,23 @@
             <AmmoMagazine Subtype="CHURCHHILL_Type25" />
         </AmmoMagazines>
         <ReloadTime>6000</ReloadTime>
+    </Weapon>
+
+    <!-- || HORNET || -->
+
+    <Weapon>
+        <Id>
+            <TypeId>WeaponDefinition</TypeId>
+            <SubtypeId>HORNET_SwarmerMissileSystem</SubtypeId>
+        </Id>
+        <MissileAmmoData RateOfFire="320" ShootSoundName="Arc220mmMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="78" />
+        <DeviateShotAngle>0.02</DeviateShotAngle>
+        <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+        <AmmoMagazines>
+            <AmmoMagazine Subtype="HORNET_80x652_Standard" />
+        </AmmoMagazines>
+        <ReloadTime>6000</ReloadTime>
+       
     </Weapon>
 
     </Weapons>

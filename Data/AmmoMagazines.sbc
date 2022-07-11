@@ -207,5 +207,27 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
+        <!-- || HORNET Swarming Missile System ||-->
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>HORNET_80x652_Standard</SubtypeId>
+            </Id>
+            <DisplayName>HORNET 80x652mm Standard</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\HORNET_80x652mm_Standard.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>1.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size> 
+            <Mass>98</Mass>
+            <Volume>52</Volume>
+            <Model>Models\Ammo\HORNET_80x652mm_Standard.mwm</Model>
+            <Capacity>13</Capacity>
+            <AmmoDefinitionId Subtype="HORNET_Standard" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
     </AmmoMagazines>
 </Definitions>

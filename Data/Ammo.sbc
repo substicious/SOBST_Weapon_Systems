@@ -233,6 +233,34 @@
                 <MissileTrailEffect>APBC_Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
+
+        <!-- || HORNET 80x652MM MISSILE || -->
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>HORNET_Standard</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>2796</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>3000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>4500</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>20</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>248</MissileMass>
+                <MissileExplosionRadius>25</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\HORNET_80x652mm_Standard.mwm</MissileModelName>
+                <MissileAcceleration>2796</MissileAcceleration>
+                <MissileInitialSpeed>275</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>11200</MissileHealthPool>
+                <MissileExplosionDamage>3200</MissileExplosionDamage>
+                <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
     </Ammos>
 
 </Definitions>

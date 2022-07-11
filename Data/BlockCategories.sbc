@@ -14,6 +14,8 @@
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
 
+                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
+
                 <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
                 <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
                 <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
@@ -34,6 +36,8 @@
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+
+                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
                 <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
                 <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
@@ -59,6 +63,8 @@
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+
+                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
                 <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
                 <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
@@ -80,6 +86,8 @@
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+
+                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
                 <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
                 <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
