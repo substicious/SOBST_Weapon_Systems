@@ -206,6 +206,8 @@
             <AmmoDefinitionId Subtype="HESH370" />
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
+        
+        <!-- || HORNET || -->
 
     </AmmoMagazines>
 </Definitions>
