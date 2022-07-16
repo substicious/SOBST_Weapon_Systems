@@ -163,12 +163,6 @@
       </Waves>
     </Sound>
 
-
-
-
-
-
-
     <Sound>
       <Id>
         <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
