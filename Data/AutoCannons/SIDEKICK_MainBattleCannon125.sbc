@@ -67,6 +67,7 @@
 			<IsAirTight>false</IsAirTight>
             <UpCameraOffset>0</UpCameraOffset>
 			<ForwardCameraOffset>3.0</ForwardCameraOffset>
+			<AiEnabled>true</AiEnabled>
 		</Definition>
 	</CubeBlocks>
 </Definitions>
