@@ -261,6 +261,87 @@
                 <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
+
+
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>APPC_500Shell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>2796</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>3000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>45000</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>20</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>800</MissileMass>
+                <MissileExplosionRadius>10</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\APPC_500mmShell.mwm</MissileModelName>
+                <MissileAcceleration>2796</MissileAcceleration>
+                <MissileInitialSpeed>275</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>15000</MissileHealthPool>
+                <MissileExplosionDamage>1050</MissileExplosionDamage>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
+
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>NuPC_500Shell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>2796</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>3000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>4500</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>30</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>604</MissileMass>
+                <MissileExplosionRadius>45</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\NuPC_500mmShell.mwm</MissileModelName>
+                <MissileAcceleration>2796</MissileAcceleration>
+                <MissileInitialSpeed>275</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>21200</MissileHealthPool>
+                <MissileExplosionDamage>5200</MissileExplosionDamage>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
+        <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
+            <Id>
+                <TypeId>AmmoDefinition</TypeId>
+                <SubtypeId>HESH_500Shell</SubtypeId>
+            </Id>
+            <BasicProperties>
+                <DesiredSpeed>2796</DesiredSpeed>
+                <SpeedVariance>0</SpeedVariance>
+                <MaxTrajectory>3000</MaxTrajectory>
+                <IsExplosive>true</IsExplosive>
+                <BackkickForce>4500</BackkickForce>
+                <PhysicalMaterial>Missile</PhysicalMaterial>
+                <ExplosiveDamageMultiplier>20</ExplosiveDamageMultiplier>
+            </BasicProperties>
+            <MissileProperties>
+                <MissileMass>604</MissileMass>
+                <MissileExplosionRadius>55</MissileExplosionRadius>
+                <MissileModelName>Models\Ammo\HESH_500mmShell.mwm</MissileModelName>
+                <MissileAcceleration>2796</MissileAcceleration>
+                <MissileInitialSpeed>275</MissileInitialSpeed>
+                <MissileSkipAcceleration>false</MissileSkipAcceleration>
+                <MissileHealthPool>25200</MissileHealthPool>
+                <MissileExplosionDamage>8200</MissileExplosionDamage>
+                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+            </MissileProperties>
+        </Ammo>
     </Ammos>
 
 </Definitions>

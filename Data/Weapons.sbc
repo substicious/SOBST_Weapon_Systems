@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Weapons>
-
+        <!-- || 125mm AutoCannons || -->
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
@@ -56,6 +56,72 @@
             </Effects>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="APBC_125MM_Shell" />
+            </AmmoMagazines>
+            <ReloadTime>5000</ReloadTime>
+        </Weapon>
+
+        <!-- || 500mm AutoCannons || -->
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>500AC1X</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="125mmCannon" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.05</DeviateShotAngle>
+            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="APPC_500" />
+                <AmmoMagazine Subtype="NuPC_500" />
+                <AmmoMagazine Subtype="HESH_500" />
+            </AmmoMagazines>
+            <ReloadTime>5000</ReloadTime>
+        </Weapon>
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>500AC2X</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="125mmCannon" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.05</DeviateShotAngle>
+            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="APPC_500" />
+                <AmmoMagazine Subtype="NuPC_500" />
+                <AmmoMagazine Subtype="HESH_500" />
+            </AmmoMagazines>
+            <ReloadTime>5000</ReloadTime>
+        </Weapon>
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>500AC3X</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="80" ShootSoundName="125mmCannon" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="3" />
+            <DeviateShotAngle>0.05</DeviateShotAngle>
+            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_003" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="APPC_500" />
+                <AmmoMagazine Subtype="NuPC_500" />
+                <AmmoMagazine Subtype="HESH_500" />
             </AmmoMagazines>
             <ReloadTime>5000</ReloadTime>
         </Weapon>

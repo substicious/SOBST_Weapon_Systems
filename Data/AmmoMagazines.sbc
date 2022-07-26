@@ -229,5 +229,69 @@
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
 
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>APPC_500</SubtypeId>
+            </Id>
+            <DisplayName>APPC-500 - Armor Piercing Pin Capped 500mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\APPC_500mmShell.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>0.500</X>
+                <Y>2.500</Y>
+                <Z>0.500</Z>
+            </Size>
+            <Mass>678</Mass>
+            <Volume>52</Volume>
+            <Model>Models\Ammo\APPC_500mmShell.mwm</Model>
+            <Capacity>3</Capacity>
+            <AmmoDefinitionId Subtype="APPC_500Shell" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>NuPC_500</SubtypeId>
+            </Id>
+            <DisplayName>NuPC-500 - Nuclear Pin Capped 500mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\NuPC_500mmShell.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>1.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size> 
+            <Mass>98</Mass>
+            <Volume>52</Volume>
+            <Model>Models\Ammo\NuPC_500mmShell.mwm</Model>
+            <Capacity>3</Capacity>
+            <AmmoDefinitionId Subtype="NuPC_500Shell" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
+        <AmmoMagazine>
+            <Id>
+                <TypeId>AmmoMagazine</TypeId>
+                <SubtypeId>HESH_500</SubtypeId>
+            </Id>
+            <DisplayName>HESH-500 - High Explosive Squashed Head 500mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\HESH_500mmShell.dds</Icon>
+            <IsExplosive>true</IsExplosive>
+            <Size>
+                <X>1.2</X>
+                <Y>0.2</Y>
+                <Z>0.2</Z>
+            </Size> 
+            <Mass>98</Mass>
+            <Volume>52</Volume>
+            <Model>Models\Ammo\HESH_500mmShell.mwm</Model>
+            <Capacity>3</Capacity>
+            <AmmoDefinitionId Subtype="HESH_500Shell" />
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
+
     </AmmoMagazines>
 </Definitions>

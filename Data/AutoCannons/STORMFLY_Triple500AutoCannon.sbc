@@ -48,7 +48,7 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>120</BuildTimeSeconds>
 			<OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-			<WeaponDefinitionId Subtype="Triple125" />
+			<WeaponDefinitionId Subtype="500AC3X" />
 			<InventoryMaxVolume>1.000</InventoryMaxVolume>
 			<MinElevationDegrees>-10</MinElevationDegrees>
 			<MaxElevationDegrees>50</MaxElevationDegrees>
