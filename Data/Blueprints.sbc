@@ -127,7 +127,7 @@
                 <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
                 <Item Amount="6" TypeId="Ingot" SubtypeId="Magnesium" />
             </Prerequisites>
-            <Result Amount="3" TypeId="AmmoMagazine" SubtypeId="NuPC_500" />
+            <Result Amount="3" TypeId="AmmoMagazine" SubtypeId="APPC_500" />
             <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
         </Blueprint>
 
@@ -142,9 +142,10 @@
                 <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
                 <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
                 <Item Amount="6" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Uranium" />
             </Prerequisites>
             <Result Amount="3" TypeId="AmmoMagazine" SubtypeId="NuPC_500" />
-            <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>70</BaseProductionTimeInSeconds>
         </Blueprint>
         <Blueprint>
             <Id>
@@ -154,9 +155,9 @@
             <DisplayName>HESH-500 - High Explosive Squashed Head 500mm Shell</DisplayName>
             <Icon>Textures\GUI\Icons\Ammo\HESH_500mmShell.dds</Icon>
             <Prerequisites>
-                <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
                 <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
-                <Item Amount="6" TypeId="Ingot" SubtypeId="Magnesium" />
+                <Item Amount="56" TypeId="Ingot" SubtypeId="Magnesium" />
             </Prerequisites>
             <Result Amount="3" TypeId="AmmoMagazine" SubtypeId="HESH_500" />
             <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>

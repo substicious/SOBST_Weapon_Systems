@@ -489,7 +489,7 @@
       <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
       <DynamicMusicAmount>15</DynamicMusicAmount>
       <Loopable>false</Loopable>
-      <Volume>4</Volume>
+      <Volume>6</Volume>
       <Waves>
         <Wave Type="D3">
           <Start>Audio\Realistic\FOB1000_SHOT.wav</Start>
