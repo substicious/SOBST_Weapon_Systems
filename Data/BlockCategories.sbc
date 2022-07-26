@@ -10,15 +10,21 @@
             <Name>LargeBlocks</Name>
             <StrictSearch>true</StrictSearch>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PDC</string>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
 
-                <string>BlockVariantGroup/Weapons125TurretsGroup</string>
-                <string>BlockVariantGroup/Weapons500TurretsGroup</string>
+                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
+
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
+
+                <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
+                <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
+                <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
-                
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -30,12 +36,19 @@
             <Name>Weapons</Name>
             <StrictSearch>true</StrictSearch>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PDC</string>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+
+                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
-                <string>BlockVariantGroup/Weapons125TurretsGroup</string>
-                <string>BlockVariantGroup/Weapons500TurretsGroup</string>
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
+
+                <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
+                <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
+                <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 
@@ -54,12 +67,19 @@
             <IsBlockCategory>false</IsBlockCategory>
             <IsToolCategory>true</IsToolCategory>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PDC</string>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+
+                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
-                <string>BlockVariantGroup/Weapons125TurretsGroup</string>
-                <string>BlockVariantGroup/Weapons500TurretsGroup</string>
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
+
+                <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
+                <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
+                <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 
@@ -74,12 +94,19 @@
             <DisplayName>SOBST Military Industries</DisplayName>
             <Name>SOBSTMilitaryIndustries</Name>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PDC</string>
+                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
                 <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+
+                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
-                <string>BlockVariantGroup/Weapons125TurretsGroup</string>
-                <string>BlockVariantGroup/Weapons500TurretsGroup</string>
+                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
+                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
+
+                <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
+                <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
+                <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 

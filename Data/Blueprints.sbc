@@ -97,5 +97,69 @@
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="HESH_125MM_Shell" />
             <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
         </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BP_HORNET_Standard</SubtypeId>
+            </Id>
+            <DisplayName>HORNET - 80x652mm Standard Missile</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\Type25_CHURCHHILL_25x131_AmmoBox.dds</Icon>
+            <Prerequisites>
+                <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="13" TypeId="AmmoMagazine" SubtypeId="HORNET_80x652_Standard" />
+            <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BP_APPC_500</SubtypeId>
+            </Id>
+            <DisplayName>APPC-500 - Armor Piercing Pin Capped 500mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\APPC_500mmShell.dds</Icon>
+            <Prerequisites>
+                <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="AmmoMagazine" SubtypeId="NuPC_500" />
+            <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BP_NuPC_500</SubtypeId>
+            </Id>
+            <DisplayName>NuPC-500 - Nuclear Pin Capped 500mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\NuPC_500mmShell.dds</Icon>
+            <Prerequisites>
+                <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="AmmoMagazine" SubtypeId="NuPC_500" />
+            <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+        </Blueprint>
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>BP_HESH_500</SubtypeId>
+            </Id>
+            <DisplayName>HESH-500 - High Explosive Squashed Head 500mm Shell</DisplayName>
+            <Icon>Textures\GUI\Icons\Ammo\HESH_500mmShell.dds</Icon>
+            <Prerequisites>
+                <Item Amount="45" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="6" TypeId="Ingot" SubtypeId="Magnesium" />
+            </Prerequisites>
+            <Result Amount="3" TypeId="AmmoMagazine" SubtypeId="HESH_500" />
+            <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
+        </Blueprint>
     </Blueprints>
 </Definitions>
