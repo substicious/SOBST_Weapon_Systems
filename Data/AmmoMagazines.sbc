@@ -277,7 +277,7 @@
                 <TypeId>AmmoMagazine</TypeId>
                 <SubtypeId>HESH_500</SubtypeId>
             </Id>
-            <DisplayName>HESH-500 - High Explosive Squashed Head 500mm Shell</DisplayName>
+            <DisplayName>HESH-500 - High Explosive Squash Head 500mm Shell</DisplayName>
             <Icon>Textures\GUI\Icons\Ammo\HESH_500mmShell.dds</Icon>
             <IsExplosive>true</IsExplosive>
             <Size>

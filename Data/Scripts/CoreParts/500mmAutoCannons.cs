@@ -180,8 +180,9 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                APBC_125MM_Shell
-                //HESH_125MM_Shell
+                APPC_500MM_Shell,
+                NUPC_500MM_Shell,
+                HESH_500MM_Shell
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,
@@ -357,8 +358,9 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                APBC_125MM_Shell
-                //HESH_125MM_Shell
+                APPC_500MM_Shell,
+                NUPC_500MM_Shell,
+                HESH_500MM_Shell
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,
@@ -535,8 +537,9 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                APBC_125MM_Shell
-                //HESH_125MM_Shell
+                APPC_500MM_Shell,
+                NUPC_500MM_Shell,
+                HESH_500MM_Shell
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,
