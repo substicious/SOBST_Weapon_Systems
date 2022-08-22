@@ -3,11 +3,11 @@
 	<CubeBlocks>
 		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
 			<Id>
-				<TypeId>LargeMissileTurret</TypeId>
+				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>CHURCHHILL_25mmAdenTurret</SubtypeId>
 			</Id>
 			<DisplayName>"CHURCHHILL" 25mm Aden Turret</DisplayName>
-			<Description>{LOC:Description_CHURCHHILL_25mmAdenTurret}</Description>
+			<Description></Description>
 			<Icon>Textures\GUI\Icons\CHURCHHILL_25mmAdenTurret.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -69,6 +69,22 @@
             <UpCameraOffset>0</UpCameraOffset>
 			<ForwardCameraOffset>1.5</ForwardCameraOffset>
             <AIEnabled>true</AIEnabled>
+			<SubpartPairing>
+                <dictionary>
+                    <item>
+                        <Key>Base1</Key>
+                        <Value>MissileTurretBase1</Value>
+                    </item>
+                    <item>
+                        <Key>Base2</Key>
+                        <Value>MissileTurretBase1/MissileTurretBarrels</Value>
+                    </item>
+                    <item>
+                        <Key>Barrel</Key>
+                        <Value>MissileTurretBase1/MissileTurretBarrels</Value>
+                    </item>
+                </dictionary>
+            </SubpartPairing>
 		</Definition>
 	</CubeBlocks>
 </Definitions>

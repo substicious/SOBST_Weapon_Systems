@@ -34,7 +34,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="VULCAN_PointDefenseCannon" />
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="MARLIN_57mmBoforTurret" />
-                <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="CHURCHHILL_25mmAdenTurret" />
+                <Block Type="MyObjectBuilder_LargeGatlingTurret" Subtype="CHURCHHILL_25mmAdenTurret" />
 
                 <Block Type="MyObjectBuilder_LargeMissileTurret" Subtype="HORNET_SwarmerMissileSystem" />
             </Blocks>

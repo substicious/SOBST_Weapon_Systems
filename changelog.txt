@@ -1,0 +1,16 @@
+[h2]Changelog[/h2]
+
+[code]
+Revision 2::30th July 2022
+
+    - Uploading Mod as is.
+    - Added 4 Large Grid Turrets; Vulcan PDC, Marlin Bofors, Churchhill Aden & Hornet Missiles
+    - Added 3 125mm AutoCannons; Sidekick, Thunder, FireStorm
+    - Added 3 500mm AutoCannons; Fulcrum, Rapture, Stormfly
+    - Added 370mm Staic Cannon, Goliath
+    - Added Small Grid Gatling Gun; Vulcan
+    
+Revision 1::27th May 2022
+
+    - Initial Upload of mod for reference purposes.
+[/code]

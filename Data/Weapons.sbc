@@ -7,16 +7,17 @@
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>125MainBattleCannons</SubtypeId>
             </Id>
-            <MissileAmmoData RateOfFire="80" ShootSoundName="125mmCannon" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <MissileAmmoData RateOfFire="30" ShootSoundName="125mmCannon" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
             <DeviateShotAngle>0.05</DeviateShotAngle>
             <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
             <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
             <Effects>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
             </Effects>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="APBC_125MM_Shell" />
+                <AmmoMagazine Subtype="HESH_125MM_Shell" />
             </AmmoMagazines>
             <ReloadTime>5000</ReloadTime>
         </Weapon>
@@ -31,11 +32,12 @@
             <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
             <Effects>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
             </Effects>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="APBC_125MM_Shell" />
+                <AmmoMagazine Subtype="HESH_125MM_Shell" />
             </AmmoMagazines>
             <ReloadTime>5000</ReloadTime>
         </Weapon>
@@ -50,12 +52,13 @@
             <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
             <Effects>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_003" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_003" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
             </Effects>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="APBC_125MM_Shell" />
+                <AmmoMagazine Subtype="HESH_125MM_Shell" />
             </AmmoMagazines>
             <ReloadTime>5000</ReloadTime>
         </Weapon>
@@ -73,7 +76,7 @@
             <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
             <Effects>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="muzzle_missile_1" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
             </Effects>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="APPC_500" />
@@ -93,8 +96,8 @@
             <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
             <Effects>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="muzzle_missile_1" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="muzzle_missile_2" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
             </Effects>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="APPC_500" />
@@ -114,9 +117,9 @@
             <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
             <Effects>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_003" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="muzzle_missile_1" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="muzzle_missile_2" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="muzzle_missile_3" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
             </Effects>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="APPC_500" />
@@ -137,7 +140,7 @@
             <MuzzleFlashLifeSpan>120</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
             <Effects>
-                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
             </Effects>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="APBC_370_GOLIATH" />

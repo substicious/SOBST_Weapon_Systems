@@ -12,7 +12,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
 
                 <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
 
@@ -38,7 +38,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
 
                 <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
@@ -69,7 +69,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
 
                 <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
@@ -96,7 +96,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
 
                 <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 

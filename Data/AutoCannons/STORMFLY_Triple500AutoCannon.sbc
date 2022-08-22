@@ -56,8 +56,8 @@
 			<MaxAzimuthDegrees>90</MaxAzimuthDegrees>
 			<RotationSpeed>0.0004</RotationSpeed>
 			<ElevationSpeed>0.0004</ElevationSpeed>
-			<IdleRotation>true</IdleRotation>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<IdleRotation>false</IdleRotation>
+			<MaxRangeMeters>4000</MaxRangeMeters>
 			<AiEnabled>true</AiEnabled>
 			<DamageEffectId>213</DamageEffectId>
 			<DamagedSound>ParticleWeapExpl</DamagedSound>

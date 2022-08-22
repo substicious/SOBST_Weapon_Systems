@@ -7,7 +7,7 @@
 				<SubtypeId>THUNDER_125mmTwinAutocannon</SubtypeId>
 			</Id>
 			<DisplayName>"THUNDER" 125mm Twin AutoCannon</DisplayName>
-			<Description>{LOC:Description_THUNDER_125mmTwinAutocannon}</Description>
+			<Description></Description>
 			<Icon>Textures\GUI\Icons\THUNDER_125mmTwinAutocannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>
@@ -27,7 +27,7 @@
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" />
 			</MountPoints>
 			<VoxelPlacement>
 				<StaticMode>

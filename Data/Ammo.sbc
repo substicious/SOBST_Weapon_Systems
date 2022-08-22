@@ -25,7 +25,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>50000</MissileHealthPool>
                 <MissileExplosionDamage>4500</MissileExplosionDamage>
-                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>APBC_125Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
 
@@ -52,7 +52,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>50000</MissileHealthPool>
                 <MissileExplosionDamage>7500</MissileExplosionDamage>
-                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>HESH_125Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
 
@@ -178,7 +178,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>100000</MissileHealthPool>
                 <MissileExplosionDamage>10000</MissileExplosionDamage>
-                <MissileTrailEffect>APBC_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>APPC_500Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
         <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
@@ -204,7 +204,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>122000</MissileHealthPool>
                 <MissileExplosionDamage>42000</MissileExplosionDamage>
-                <MissileTrailEffect>APBC_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>NuPC_500Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
         <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
@@ -230,7 +230,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>112000</MissileHealthPool>
                 <MissileExplosionDamage>32000</MissileExplosionDamage>
-                <MissileTrailEffect>APBC_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>HESH_500Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
 
@@ -258,7 +258,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>11200</MissileHealthPool>
                 <MissileExplosionDamage>3200</MissileExplosionDamage>
-                <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
+                <MissileTrailEffect>Smoke_Missile2</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
 
@@ -286,7 +286,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>15000</MissileHealthPool>
                 <MissileExplosionDamage>1050</MissileExplosionDamage>
-                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>APPC_500Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
 
@@ -313,7 +313,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>21200</MissileHealthPool>
                 <MissileExplosionDamage>5200</MissileExplosionDamage>
-                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>NuPC_500Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
         <Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
@@ -339,7 +339,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileHealthPool>25200</MissileHealthPool>
                 <MissileExplosionDamage>8200</MissileExplosionDamage>
-                <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
+                <MissileTrailEffect>HESH_500Tracer</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
     </Ammos>
