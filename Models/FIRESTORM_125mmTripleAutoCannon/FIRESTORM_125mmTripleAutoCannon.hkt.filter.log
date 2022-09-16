@@ -1,15 +1,15 @@
-Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\STEPHE~1\AppData\Local\Temp\space_engineers_goe5gdgf.hko -p C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon.hkt C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon.hkt 
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\STEPHE~1\AppData\Local\Temp\space_engineers_uz32ravz.hko -p C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon.hkt C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon.hkt 
 [ Processing All Configurations... ]
     
-    ========== Started: Mon Jul 18 19:02:17 2022, Configuration: default ==========
+    ========== Started: Fri Sep 16 09:59:57 2022, Configuration: default ==========
     
     [ [Physics 2012] Create Rigid Bodies Filter ]
-        [0xabba090f] Warning : Dynamic (not fixed) rigid body with concave (Mesh) Shape (Cube).
+        [0xabba090f] Warning : Dynamic (not fixed) rigid body with concave (Mesh) Shape (CollisionParent).
         [0xabba090f] Warning : This is not fully supported, and may slow down the simulation.
-        [0xabbafad3] Warning : 'Cube' - Shape shrinking not supported for mesh shapes. 'Extra Radius' will be 0. Performance may be affected.
-        Removed 268 duplicated vertices in mesh Cube
+        [0xabbafad3] Warning : 'CollisionParent' - Shape shrinking not supported for mesh shapes. 'Extra Radius' will be 0. Performance may be affected.
+        Removed 2 duplicated vertices in mesh CollisionParent
         Building BV Compressed Mesh Shape with 1 mesh shapes and 0 convex shapes.
-        Created 1 rigid bodies.
+        Created 5 rigid bodies.
     [ Prune Types Filter ]
     [ Write to Platform Filter ]
         Wrote layout for [Tagfile] to file [C:\Users\Stephen Sherwood\AppData\Roaming\SpaceEngineers\Mods\SOBST_Weapon_Systems\Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon.hkt].

@@ -34,6 +34,10 @@ Range: 1500m</Description>
 			<MountPoints>
 				<MountPoint Side="Bottom" StartX="0.16" StartY="0.07" EndX="0.84" EndY="0.74"/>
 			</MountPoints>
+      <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\VULCAN_PointDefenseCannon\VULCAN_PointDefenseCannon_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\VULCAN_PointDefenseCannon\VULCAN_PointDefenseCannon_BS2.mwm"/>
+			</BuildProgressModels>
 			<BlockPairName>VULCAN_PointDefenseCannon</BlockPairName>
 			<VoxelPlacement>
         <StaticMode>

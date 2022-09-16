@@ -42,6 +42,10 @@
 					<MinAllowed>0.01</MinAllowed>
 				</DynamicMode>
 			</VoxelPlacement>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\CHURCHHILL_25mmAdenTurret\CHURCHHILL_25mmAdenTurret_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\CHURCHHILL_25mmAdenTurret\CHURCHHILL_25mmAdenTurret_BS2.mwm"/>
+			</BuildProgressModels>
 			<BlockPairName>CHURCHHILL_25mmAdenTurret</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>50</BuildTimeSeconds>
