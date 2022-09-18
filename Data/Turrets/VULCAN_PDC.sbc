@@ -7,10 +7,11 @@
 				  <SubtypeId>VULCAN_PDC</SubtypeId>
 			</Id>
 			<DisplayName>"VULCAN" Point Defense Cannon</DisplayName>
-			<Description>A high rate of fire along with a high ammo drum.
+			<Description>A high rate of fire turret with a high capacity ammo drum.
 
 Ammo: 40x127mm Copper Jacket High Velocity Rounds
-      40x127mm Copper Jacket High Velocity Depleted Uranium Rounds
+
+40x127mm Copper Jacket High Velocity Depleted Uranium Rounds
 
 Range: 1500m</Description>
 			<Icon>Textures\GUI\Icons\VULCAN_PointDefenseCannon.dds</Icon>

@@ -7,7 +7,12 @@
 				<SubtypeId>THUNDER_125mmTwinAutocannon</SubtypeId>
 			</Id>
 			<DisplayName>"THUNDER" 125mm Twin AutoCannon</DisplayName>
-			<Description>{LOC:Description_THUNDER_125mmTwinAutocannon}</Description>
+			<Description>The bigger brother to the SIDEKICK, the THUNDER supports two 125mm cannons which is why the turret base has been reinforced.
+
+Ammo: APBC-125 - Armor Piercing Ballistic Cap 125mm Shell
+			
+Range: 3000m			
+			</Description>
 			<Icon>Textures\GUI\Icons\THUNDER_125mmTwinAutocannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>

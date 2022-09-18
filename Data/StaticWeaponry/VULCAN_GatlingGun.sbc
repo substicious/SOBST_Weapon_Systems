@@ -7,7 +7,14 @@
 				<SubtypeId>VULCAN_GatlingGun</SubtypeId>
 			</Id>
 			<DisplayName>"VULCAN" Static Gatling Gun</DisplayName>
-			<Description></Description>
+			<Description>A high rate of fire cannon with a high capacity ammo drum.
+
+Ammo: 40x127mm Copper Jacket High Velocity Rounds
+
+40x127mm Copper Jacket High Velocity Depleted Uranium Rounds
+
+Range: 1500m
+			</Description>
 			<Icon>Textures\GUI\Icons\VULCAN_GatlingGun.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

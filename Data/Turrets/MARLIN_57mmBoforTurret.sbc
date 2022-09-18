@@ -7,7 +7,12 @@
 				<SubtypeId>MARLIN_57mmBoforTurret</SubtypeId>
 			</Id>
 			<DisplayName>"MARLIN" 57mm Bofor Turret</DisplayName>
-			<Description></Description>
+			<Description>A quad-barreled turret sporting four 57mm bofors cannons that fire in rapid succession.
+
+Ammo: 57x438mm HESH Ammo Clip
+
+Range: 2500m			
+			</Description>
 			<Icon>Textures\GUI\Icons\MARLIN_57mmBoforTurret.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>

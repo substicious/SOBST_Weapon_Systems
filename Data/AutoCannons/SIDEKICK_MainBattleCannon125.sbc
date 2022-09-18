@@ -7,7 +7,12 @@
 				<SubtypeId>SIDEKICK_125AutoCannon</SubtypeId>
 			</Id>
             <DisplayName>"SIDEKICK" 125mm AutoCannon</DisplayName>
-			<Description>SIDEKICK</Description>
+			<Description>The smallest one in the lineup, the SIDEKICK is a 1x1 Autocannon platform that can fit in almost every recess you can think of as long as the barrel is clear.
+			
+Ammo: APBC-125 - Armor Piercing Ballistic Cap 125mm Shell			
+			
+Range: 3000m			
+			</Description>
             <Icon>Textures\GUI\Icons\SIDEKICK_MBC125.dds</Icon>
             <CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>

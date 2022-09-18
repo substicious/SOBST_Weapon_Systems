@@ -7,7 +7,12 @@
 				<SubtypeId>FIRESTORM_125mmTripleAutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"FIRESTORM" 125mm Triple AutoCannon</DisplayName>
-			<Description>FIRESTORM</Description>
+			<Description>The FIRESTORM is an AutoCannon turret boasting three 125mm cannons that can fire simultaneously.
+			
+Ammo: APBC-125 - Armor Piercing Ballistic Cap 125mm Shell
+
+Range: 3000m
+			</Description>
 			<Icon>Textures\GUI\Icons\FIRESTORM_125mmTripleAutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>

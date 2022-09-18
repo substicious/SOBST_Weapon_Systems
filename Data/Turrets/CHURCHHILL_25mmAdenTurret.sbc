@@ -7,7 +7,12 @@
 				<SubtypeId>CHURCHHILL_25mmAdenTurret</SubtypeId>
 			</Id>
 			<DisplayName>"CHURCHHILL" 25mm Aden Turret</DisplayName>
-			<Description>{LOC:Description_CHURCHHILL_25mmAdenTurret}</Description>
+			<Description>A rapid fire single-barreled 25mm autocannon with longer range anti-fighter capabilities.
+
+Ammo: TYPE-25 - Standard 25x131mm CHURCHHILL Ammo Box		
+
+Range: 2000m			
+			</Description>
 			<Icon>Textures\GUI\Icons\CHURCHHILL_25mmAdenTurret.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

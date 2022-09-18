@@ -7,7 +7,12 @@
 				<SubtypeId>RAPTURE_Twin500AutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"RAPTURE" 500mm Twin AutoCannon</DisplayName>
-			<Description></Description>
+			<Description>So you wanted even more firepower than the FULCRUM huh? Well here you go, DOUBLE THE POWAA!!
+			
+Ammo: APPC-500, HESH-500
+			
+Range: 8000m		
+			</Description>
 			<Icon>Textures\GUI\Icons\RAPTURE_Twin500AutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

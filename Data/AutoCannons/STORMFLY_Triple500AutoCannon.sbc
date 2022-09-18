@@ -7,7 +7,12 @@
 				<SubtypeId>STORMFLY_Triple500AutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"STORMFLY" 500mm Triple AutoCannon</DisplayName>
-			<Description></Description>
+			<Description>ARE YOU INSANE!?! WHERE ARE YOU GOING TO FIT THIS TRIPLE BARRELED MONSTER???
+			
+Ammo: APPC-500, HESH-500
+			
+Range: 8000m						
+			</Description>
 			<Icon>Textures\GUI\Icons\STORMFLY_Triple500AutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

@@ -7,7 +7,12 @@
 				<SubtypeId>HORNET_SwarmerMissileSystem</SubtypeId>
 			</Id>
 			<DisplayName>"HORNET" Swarmer Missile System</DisplayName>
-			<Description>{LOC:Description_HORNET_SwarmerMissileSystem}</Description>
+			<Description>A high capacity smart missile launcher system that functions as anti-air.
+
+Ammo: HORNET 80x652mm Standard Missiles
+
+Range: 800m		
+			</Description>
 			<Icon>Textures\GUI\Icons\HORNET_SwarmerMissileSystem.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
