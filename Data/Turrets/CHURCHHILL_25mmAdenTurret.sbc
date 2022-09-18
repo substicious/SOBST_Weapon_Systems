@@ -3,16 +3,11 @@
 	<CubeBlocks>
 		<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
 			<Id>
-				<TypeId>LargeMissileTurret</TypeId>
+				<TypeId>LargeGatlingTurret</TypeId>
 				<SubtypeId>CHURCHHILL_25mmAdenTurret</SubtypeId>
 			</Id>
 			<DisplayName>"CHURCHHILL" 25mm Aden Turret</DisplayName>
-			<Description>A rapid fire single-barreled 25mm autocannon with longer range anti-fighter capabilities.
-
-Ammo: TYPE-25 - Standard 25x131mm CHURCHHILL Ammo Box		
-
-Range: 2000m			
-			</Description>
+			<Description></Description>
 			<Icon>Textures\GUI\Icons\CHURCHHILL_25mmAdenTurret.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -47,6 +42,10 @@ Range: 2000m
 					<MinAllowed>0.01</MinAllowed>
 				</DynamicMode>
 			</VoxelPlacement>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\CHURCHHILL_25mmAdenTurret\CHURCHHILL_25mmAdenTurret_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\CHURCHHILL_25mmAdenTurret\CHURCHHILL_25mmAdenTurret_BS2.mwm"/>
+			</BuildProgressModels>
 			<BlockPairName>CHURCHHILL_25mmAdenTurret</BlockPairName>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>50</BuildTimeSeconds>
@@ -74,6 +73,22 @@ Range: 2000m
             <UpCameraOffset>0</UpCameraOffset>
 			<ForwardCameraOffset>1.5</ForwardCameraOffset>
             <AIEnabled>true</AIEnabled>
+			<SubpartPairing>
+                <dictionary>
+                    <item>
+                        <Key>Base1</Key>
+                        <Value>MissileTurretBase1</Value>
+                    </item>
+                    <item>
+                        <Key>Base2</Key>
+                        <Value>MissileTurretBase1/MissileTurretBarrels</Value>
+                    </item>
+                    <item>
+                        <Key>Barrel</Key>
+                        <Value>MissileTurretBase1/MissileTurretBarrels</Value>
+                    </item>
+                </dictionary>
+            </SubpartPairing>
 		</Definition>
 	</CubeBlocks>
 </Definitions>

@@ -32,7 +32,7 @@ Range: 3000m
 			</Components>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+				<MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="2" />
 			</MountPoints>
 			<VoxelPlacement>
 				<StaticMode>
@@ -46,8 +46,13 @@ Range: 3000m
 					<MinAllowed>0.01</MinAllowed>
 				</DynamicMode>
 			</VoxelPlacement>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS3.mwm"/>
+			</BuildProgressModels>
 			<BlockPairName>THUNDER_125TAC</BlockPairName>
-            <WeaponDefinitionId Subtype="125MainBattleCannons" />
+            <WeaponDefinitionId Subtype="MainBattleCannons" />
             <EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>80</BuildTimeSeconds>
 			<OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>

@@ -7,9 +7,12 @@
 				<SubtypeId>GOLIATH_Fixed_370_AutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"GOLIATH" 370mm Static AutoCannon</DisplayName>
-			<Description>Following the end of the war between Redwood Industries and the Green Drone Armada, SOBST Military Industries began the task of designing and prototyping new and improved weapons which can be utilised for the protection of worlds and civilisations. 
-
-From this the GOLIATH was born. Using GDA tech to enhance the stealth and guidance systems, the 370mm shell packs a punch from a few configurations of the payloads.</Description>
+			<Description>Range::2 km
+			
+Ammunition Required::
+-> APBC-370 - Armor Piercing Ballistic Cap Shell
+-> APDU-370 - Armor Piercing Depleted Uranium Shell
+-> HESH-370 - High Explosive Squashed Head Shell</Description>
 			<Icon>Textures\GUI\Icons\GOLIATH_Fixed_370_AutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -35,7 +38,7 @@ From this the GOLIATH was born. Using GDA tech to enhance the stealth and guidan
 				<Model BuildPercentUpperBound="0.67" File="Models\GOLIATH_Fixed_370_AutoCannon\GOLIATH_Fixed_370_AutoCannon_BS2.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\GOLIATH_Fixed_370_AutoCannon\GOLIATH_Fixed_370_AutoCannon_BS3.mwm"/>
 			</BuildProgressModels>
-			<BlockPairName>GOLIATHS</BlockPairName>
+			<BlockPairName>GOLIATH_Fixed_370_AutoCannon</BlockPairName>
 			<MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <Center x="0" y="0" z="4" />

@@ -46,8 +46,12 @@ Range: 3000m
 					<MinAllowed>0.01</MinAllowed>
 				</DynamicMode>
 			</VoxelPlacement>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\SIDEKICK_MainBattleCannon125\MBC125S_MainBattleCannon125Single_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\SIDEKICK_MainBattleCannon125\MBC125S_MainBattleCannon125Single_BS2.mwm"/>
+			</BuildProgressModels>
 			<BlockPairName>SIDEKICK_125AutoCannon</BlockPairName>
-            <WeaponDefinitionId Subtype="125MainBattleCannons" />
+            <WeaponDefinitionId Subtype="MainBattleCannons" />
             <EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>50</BuildTimeSeconds>
 			<OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>
@@ -72,6 +76,7 @@ Range: 3000m
 			<IsAirTight>false</IsAirTight>
             <UpCameraOffset>0</UpCameraOffset>
 			<ForwardCameraOffset>3.0</ForwardCameraOffset>
+			<AiEnabled>true</AiEnabled>
 		</Definition>
 	</CubeBlocks>
 </Definitions>

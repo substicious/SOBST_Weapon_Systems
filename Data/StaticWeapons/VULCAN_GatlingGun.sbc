@@ -13,7 +13,7 @@ Ammo: 40x127mm Copper Jacket High Velocity Rounds
 
 40x127mm Copper Jacket High Velocity Depleted Uranium Rounds
 
-Range: 1500m
+Range: 1500m			
 			</Description>
 			<Icon>Textures\GUI\Icons\VULCAN_GatlingGun.dds</Icon>
 			<CubeSize>Small</CubeSize>
@@ -35,9 +35,9 @@ Range: 1500m
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
-                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GatlingGunConstruction_1.mwm" />
-                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GatlingGunConstruction_2.mwm" />
-            </BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\VULCAN_GatlingGun\VULCAN_GatlingGun_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\VULCAN_GatlingGun\VULCAN_GatlingGun_BS2.mwm"/>
+			</BuildProgressModels>
 			<BlockPairName>VULCAN_GatlingGun</BlockPairName>
 			<Center x="0" y="0" z="4" />
 			<MirroringY>Z</MirroringY>
