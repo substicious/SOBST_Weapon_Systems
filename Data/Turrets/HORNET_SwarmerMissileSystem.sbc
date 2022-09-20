@@ -7,6 +7,12 @@
 				<SubtypeId>HORNET_SwarmerMissileSystem</SubtypeId>
 			</Id>
 			<DisplayName>"HORNET" Swarmer Missile System</DisplayName>
+			<Description>A high capacity smart missile launcher system that functions as anti-air.
+
+Ammo: HORNET 80x652mm Standard Missiles
+
+Range: 800m		
+			</Description>
 			<Icon>Textures\GUI\Icons\HORNET_SwarmerMissileSystem.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
@@ -54,7 +60,7 @@
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>50</BuildTimeSeconds>
 			<OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>
-			<WeaponDefinitionId Subtype="HORNET_SwarmerMissileSystem" />
+			<WeaponDefinitionId Subtype="HORNET" />
 			<EnabledTargetingOptions>SmallShips LargeShips Stations Enemies</EnabledTargetingOptions>
 			<HiddenTargetingOptions>Friends Asteroids Missiles</HiddenTargetingOptions>
 			<InventoryMaxVolume>0.384</InventoryMaxVolume>
