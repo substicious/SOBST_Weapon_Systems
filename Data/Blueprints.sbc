@@ -79,7 +79,7 @@
                 <Item Amount="8" TypeId="Ingot" SubtypeId="Magnesium" />
                 <Item Amount="2" TypeId="Ingot" SubtypeId="Uranium" />
             </Prerequisites>
-            <Result Amount="2" TypeId="AmmoMagazine" SubtypeId="HESH_125MM_Shell" />
+            <Result Amount="2" TypeId="AmmoMagazine" SubtypeId="MARLIN_57_HESH" />
             <BaseProductionTimeInSeconds>55</BaseProductionTimeInSeconds>
         </Blueprint>
         <Blueprint>
@@ -94,7 +94,7 @@
                 <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
                 <Item Amount="6" TypeId="Ingot" SubtypeId="Magnesium" />
             </Prerequisites>
-            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="HESH_125MM_Shell" />
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="CHURCHHILL_Type25" />
             <BaseProductionTimeInSeconds>35</BaseProductionTimeInSeconds>
         </Blueprint>
 
