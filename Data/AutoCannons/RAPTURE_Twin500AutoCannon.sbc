@@ -17,7 +17,6 @@ Range: 8000m
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="2" z="5"/>
-			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\RAPTURE_Twin500AutoCannon\RAPTURE_Twin500AutoCannon.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>

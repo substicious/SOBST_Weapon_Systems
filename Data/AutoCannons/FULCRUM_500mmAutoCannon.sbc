@@ -17,7 +17,6 @@ Range: 8000m
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="2" z="5"/>
-			<Center x="3" y="1" z="3"/>
 			<Model>Models\FULCRUM_AutoCannon500\FULCRUM_500mmAutoCannon.mwm</Model>
 			<Components>
 				<Component Subtype="SteelPlate" Count="30" />
