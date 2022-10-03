@@ -7,7 +7,12 @@
 				<SubtypeId>STORMFLY_Triple500AutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"STORMFLY" 500mm Triple AutoCannon</DisplayName>
-			<Description></Description>
+			<Description>Range::2 km
+			
+Ammunition Required::
+-> APPC-500 - Armor Piercing
+-> NuPC-500 - Nuclear
+-> HESH-500 - High Explosive</Description>
 			<Icon>Textures\GUI\Icons\STORMFLY_Triple500AutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

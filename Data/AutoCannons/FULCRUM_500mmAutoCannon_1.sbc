@@ -7,7 +7,12 @@
 				<SubtypeId>FULCRUM_500mmAutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"FULCRUM" 500mm AutoCannon</DisplayName>
-			<Description></Description>
+			<Description>Range::2 km
+			
+Ammunition Required::
+-> APPC-500 - Armor Piercing
+-> NuPC-500 - Nuclear
+-> HESH-500 - High Explosive</Description>
 			<Icon>Textures\GUI\Icons\FULCRUM_500mmAutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
