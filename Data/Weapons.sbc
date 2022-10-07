@@ -5,7 +5,7 @@
       <Weapon>
         <Id>
             <TypeId>WeaponDefinition</TypeId>
-            <SubtypeId>125MainBattleCannons</SubtypeId>
+            <SubtypeId>MainBattleCannons</SubtypeId>
         </Id>
         <ProjectileAmmoData />
         <AmmoMagazines>

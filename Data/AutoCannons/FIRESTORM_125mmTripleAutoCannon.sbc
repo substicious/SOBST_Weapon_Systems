@@ -7,7 +7,12 @@
 				<SubtypeId>FIRESTORM_125mmTripleAutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"FIRESTORM" 125mm Triple AutoCannon</DisplayName>
-			<Description>FIRESTORM</Description>
+			<Description>The FIRESTORM is an AutoCannon turret boasting three 125mm cannons that can fire simultaneously.
+			
+Ammo: APBC-125 - Armor Piercing Ballistic Cap 125mm Shell
+
+Range: 3000m
+			</Description>
 			<Icon>Textures\GUI\Icons\FIRESTORM_125mmTripleAutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<PlaceDecals>false</PlaceDecals>
@@ -41,8 +46,13 @@
 					<MinAllowed>0.01</MinAllowed>
 				</DynamicMode>
 			</VoxelPlacement>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS3.mwm"/>
+			</BuildProgressModels>
 			<BlockPairName>FIRESTORM_125mmTripleAutoCannon</BlockPairName>
-			<WeaponDefinitionId Subtype="125MainBattleCannons" />
+			<WeaponDefinitionId Subtype="MainBattleCannons" />
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>

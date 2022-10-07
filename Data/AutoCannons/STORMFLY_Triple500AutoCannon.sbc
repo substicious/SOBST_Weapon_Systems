@@ -7,18 +7,16 @@
 				<SubtypeId>STORMFLY_Triple500AutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"STORMFLY" 500mm Triple AutoCannon</DisplayName>
-			<Description>Range::2 km
+			<Description>ARE YOU INSANE!?! WHERE ARE YOU GOING TO FIT THIS TRIPLE BARRELED MONSTER???
 			
-Ammunition Required::
--> APPC-500 - Armor Piercing
--> NuPC-500 - Nuclear
--> HESH-500 - High Explosive</Description>
+Ammo: APPC-500, HESH-500
+			
+Range: 8000m						
+			</Description>
 			<Icon>Textures\GUI\Icons\STORMFLY_Triple500AutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="2" z="5"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Center x="3" y="1" z="3" />
 			<Model>Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon.mwm</Model>
 			<UseModelIntersection>true</UseModelIntersection>
 			<Components>
@@ -47,13 +45,18 @@ Ammunition Required::
 				<MinAllowed>0.01</MinAllowed>
 				</DynamicMode>
 			</VoxelPlacement>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon_BS3.mwm"/>
+			</BuildProgressModels>
 			<BlockPairName>STORMFLY_Triple500AutoCannon</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>120</BuildTimeSeconds>
 			<OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
-			<WeaponDefinitionId Subtype="125MainBattleCannons" />
+			<WeaponDefinitionId Subtype="MainBattleCannons" />
 			<InventoryMaxVolume>1.000</InventoryMaxVolume>
 			<MinElevationDegrees>-10</MinElevationDegrees>
 			<MaxElevationDegrees>50</MaxElevationDegrees>
@@ -61,8 +64,8 @@ Ammunition Required::
 			<MaxAzimuthDegrees>90</MaxAzimuthDegrees>
 			<RotationSpeed>0.0004</RotationSpeed>
 			<ElevationSpeed>0.0004</ElevationSpeed>
-			<IdleRotation>true</IdleRotation>
-			<MaxRangeMeters>800</MaxRangeMeters>
+			<IdleRotation>false</IdleRotation>
+			<MaxRangeMeters>4000</MaxRangeMeters>
 			<AiEnabled>true</AiEnabled>
 			<DamageEffectId>213</DamageEffectId>
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
