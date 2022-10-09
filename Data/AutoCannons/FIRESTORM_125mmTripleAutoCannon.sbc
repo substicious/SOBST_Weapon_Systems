@@ -42,9 +42,8 @@
 				</DynamicMode>
 			</VoxelPlacement>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.45" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.90" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS2.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>FIRESTORM_125mmTripleAutoCannon</BlockPairName>
 			<WeaponDefinitionId Subtype="Triple125" />
