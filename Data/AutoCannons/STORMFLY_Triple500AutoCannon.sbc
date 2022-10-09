@@ -46,9 +46,8 @@ Range: 8000m
 				</DynamicMode>
 			</VoxelPlacement>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.45" File="Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.90" File="Models\STORMFLY_Triple500AutoCannon\STORMFLY_Triple500AutoCannon_BS2.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>STORMFLY_Triple500AutoCannon</BlockPairName>
 			<MirroringY>Z</MirroringY>

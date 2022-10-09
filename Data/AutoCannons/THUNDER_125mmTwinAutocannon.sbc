@@ -47,9 +47,8 @@ Range: 3000m
 				</DynamicMode>
 			</VoxelPlacement>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS3.mwm"/>
+				<Model BuildPercentUpperBound="0.45" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.90" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS2.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>THUNDER_125TAC</BlockPairName>
             <WeaponDefinitionId Subtype="MainBattleCannons" />
