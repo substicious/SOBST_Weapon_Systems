@@ -51,7 +51,7 @@ Range: 3000m
 				<Model BuildPercentUpperBound="1.00" File="Models\FIRESTORM_125mmTripleAutoCannon\FIRESTORM_125mmTripleAutoCannon_BS2.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>FIRESTORM_125mmTripleAutoCannon</BlockPairName>
-			<WeaponDefinitionId Subtype="Triple125" />
+			<WeaponDefinitionId Subtype="MainBattleCannons" />
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
