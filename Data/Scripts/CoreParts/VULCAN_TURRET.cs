@@ -115,9 +115,9 @@ namespace Scripts {
                     EnergyPriority = 0, // Deprecated.
                     MuzzleCheck = false, // Whether the weapon should check LOS from each individual muzzle in addition to the scope.
                     Debug = false, // Force enables debug mode.
-                    RestrictionRadius = 0, // Prevents other blocks of this type from being placed within this distance of the centre of the block.
-                    CheckInflatedBox = false, // If true, the above distance check is performed from the edge of the block instead of the centre.
-                    CheckForAnyWeapon = false, // If true, the check will fail if ANY weapon is present, not just weapons of the same subtype.
+                    RestrictionRadius = 1, // Prevents other blocks of this type from being placed within this distance of the centre of the block.
+                    CheckInflatedBox = true, // If true, the above distance check is performed from the edge of the block instead of the centre.
+                    CheckForAnyWeapon = true, // If true, the check will fail if ANY weapon is present, not just weapons of the same subtype.
                 },
                 Loading = new LoadingDef
                 {
@@ -168,7 +168,7 @@ namespace Scripts {
                             Loop = true, // Set this to the same as in the particle sbc!
                             Restart = false, // Whether to end a looping effect instantly when firing stops.
                             Scale = 1f, // Scale of effect.
-														MaxDistance = 200,
+							MaxDistance = 200,
                             MaxDuration = 0f,
                         },
                     },
@@ -182,7 +182,7 @@ namespace Scripts {
                             Loop = false, // Set this to the same as in the particle sbc!
                             Restart = true,
                             Scale = 1f,
-														MaxDistance = 200,
+							MaxDistance = 200,
                             MaxDuration = 0f,
                         },
                     },
