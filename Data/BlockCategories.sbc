@@ -24,6 +24,8 @@
                 <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
                 <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
 
+                <string>LargeMissileTurret/HERMES_125Casemate</string>
+
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
             </ItemIds>
         </Category>
@@ -49,6 +51,8 @@
                 <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
                 <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
                 <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
+
+                <string>LargeMissileTurret/HERMES_125Casemate</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 
@@ -81,6 +85,8 @@
                 <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
                 <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
 
+                <string>LargeMissileTurret/HERMES_125Casemate</string>
+
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 
                 <string>SmallGatlingGun/VULCAN_GatlingGun</string>
@@ -107,6 +113,8 @@
                 <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
                 <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
                 <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
+
+                <string>LargeMissileTurret/HERMES_125Casemate</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 

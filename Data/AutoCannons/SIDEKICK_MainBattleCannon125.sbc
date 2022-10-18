@@ -45,6 +45,8 @@
 				<Model BuildPercentUpperBound="0.50" File="Models\SIDEKICK_MainBattleCannon125\MBC125S_MainBattleCannon125Single_BS1.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\SIDEKICK_MainBattleCannon125\MBC125S_MainBattleCannon125Single_BS2.mwm"/>
 			</BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
 			<BlockPairName>SIDEKICK_125AutoCannon</BlockPairName>
             <WeaponDefinitionId Subtype="125MainBattleCannons" />
             <EdgeType>Light</EdgeType>

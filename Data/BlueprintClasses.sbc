@@ -24,6 +24,7 @@
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/FULCRUM_500mmAutoCannon" />
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/RAPTURE_Twin500AutoCannon" />
         <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/STORMFLY_Triple500AutoCannon" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/HERMES_125Casemate" />
         
         <Entry Class="LargeBlocks" BlueprintSubtypeId="SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon" />
 

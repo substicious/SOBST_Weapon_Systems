@@ -45,6 +45,8 @@
 				<Model BuildPercentUpperBound="0.45" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS1.mwm"/>
 				<Model BuildPercentUpperBound="0.90" File="Models\THUNDER_125mmAutoCannonTwin\THUNDER_125mmTwinAutocannon_BS2.mwm"/>
 			</BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
 			<BlockPairName>THUNDER_125TAC</BlockPairName>
             <WeaponDefinitionId Subtype="Twin125" />
             <EdgeType>Light</EdgeType>

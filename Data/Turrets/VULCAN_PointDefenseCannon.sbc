@@ -51,7 +51,7 @@ Range: 1500m</Description>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-	<MirroringY>Z</MirroringY>
+	    <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
