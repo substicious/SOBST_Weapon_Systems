@@ -17,7 +17,7 @@ namespace Scripts {
             {
                 MountPoints = new[] {
                     new MountPointDef {
-                        SubtypeId = "VULCAN_PDC", // Block Subtypeid. Your Cubeblocks contain this information
+                        SubtypeId = "VULCAN_PointDefenseCannon", // Block Subtypeid. Your Cubeblocks contain this information
                         SpinPartId = "GatlingBarrel", // For weapons with a spinning barrel such as Gatling Guns. Subpart_Boomsticks must be written as Boomsticks.
                         MuzzlePartId = "GatlingBarrel", // The subpart where your muzzle empties are located. This is often the elevation subpart. Subpart_Boomsticks must be written as Boomsticks.
                         AzimuthPartId = "GatlingTurretBase1", // Your Rotating Subpart, the bit that moves sideways.

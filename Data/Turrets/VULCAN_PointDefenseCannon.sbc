@@ -4,7 +4,7 @@
     <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
       <Id>
         	<TypeId>LargeGatlingTurret</TypeId>
-				  <SubtypeId>VULCAN_PDC</SubtypeId>
+				  <SubtypeId>VULCAN_PointDefenseCannon</SubtypeId>
 			</Id>
 			<DisplayName>"VULCAN" Point Defense Cannon</DisplayName>
 			<Description>A high rate of fire turret with a high capacity ammo drum.

@@ -11,22 +11,11 @@
             <StrictSearch>true</StrictSearch>
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
-                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
-
-                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
-
-                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
-                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
-                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
-
-                <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
-                <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
-                <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
-
-                <string>LargeMissileTurret/HERMES_125Casemate</string>
-
-                <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+				<string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+				<string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
+				<string>LargeMissileTurret/HERMES_125Casemate</string>
+				<string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+				<string>SmallGatlingGun/VULCAN_GatlingGun</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -39,24 +28,11 @@
             <StrictSearch>true</StrictSearch>
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
-                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
-
-                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
-                
-                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
-                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
-                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
-
-                <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
-                <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
-                <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
-
-                <string>LargeMissileTurret/HERMES_125Casemate</string>
-
-                <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
-
-                <string>SmallGatlingGun/VULCAN_GatlingGun</string>
+				<string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+				<string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
+				<string>LargeMissileTurret/HERMES_125Casemate</string>
+				<string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+				<string>SmallGatlingGun/VULCAN_GatlingGun</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -71,25 +47,12 @@
             <IsBlockCategory>false</IsBlockCategory>
             <IsToolCategory>true</IsToolCategory>
             <ItemIds>
-                <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
-                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
-
-                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
-                
-                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
-                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
-                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
-
-                <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
-                <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
-                <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
-
-                <string>LargeMissileTurret/HERMES_125Casemate</string>
-
-                <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
-
-                <string>SmallGatlingGun/VULCAN_GatlingGun</string>
+				<string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
+				<string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+				<string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
+				<string>LargeMissileTurret/HERMES_125Casemate</string>
+				<string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+				<string>SmallGatlingGun/VULCAN_GatlingGun</string>
             </ItemIds>
         </Category>
         <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -101,24 +64,11 @@
             <Name>SOBSTMilitaryIndustries</Name>
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
-                <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
-
-                <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
-                
-                <string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
-                <string>LargeMissileTurret/THUNDER_125mmTwinAutocannon</string>
-                <string>LargeMissileTurret/FIRESTORM_125mmTripleAutoCannon</string>
-
-                <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
-                <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
-                <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
-
-                <string>LargeMissileTurret/HERMES_125Casemate</string>
-
-                <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
-
-                <string>SmallGatlingGun/VULCAN_GatlingGun</string>
+				<string>LargeMissileTurret/SIDEKICK_125AutoCannon</string>
+				<string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
+				<string>LargeMissileTurret/HERMES_125Casemate</string>
+				<string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
+				<string>SmallGatlingGun/VULCAN_GatlingGun</string>
             </ItemIds>
         </Category>
     </CategoryClasses>

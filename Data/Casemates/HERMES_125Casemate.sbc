@@ -7,11 +7,12 @@
 				<SubtypeId>HERMES_125Casemate</SubtypeId>
 			</Id>
 			<DisplayName>"HERMES" 125mm Casemate Autocannon</DisplayName>
-			<Description>::RANGE:: 2000m
+			<Description>A powerful 125mm cannon wrapped in a small package with limited firing arcs and lower rate of fire.
+			
+Ammo: APBC-125, HESH-125
 
-::AMMO:: 
- * APBC-125 - Armor Piercing Ballistic Cap 125mm Shell
- * HESH-125 - High Explosive Squashed Head 125mm Shell</Description>
+Range: 3000m
+			</Description>
 			<Icon>Textures\GUI\Icons\HERMES_125Casemate.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -53,7 +54,7 @@
 			<BlockPairName>HERMES_125Casemate</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-			<WeaponDefinitionId Subtype="125Casemate" />
+			<WeaponDefinitionId Subtype="MainBattleCannons" />
             <EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>50</BuildTimeSeconds>
 			<OverlayTexture>Textures\GUI\Screens\camera_overlay.dds</OverlayTexture>

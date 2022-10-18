@@ -14,6 +14,7 @@ namespace Scripts
                             SIDEKICK_125MM,
                             THUNDER_125MM,
                             FIRESTORM_125MM,
+							HERMES_125MM,
                             FULCRUM_500MM,
                             RAPTURE_500MM,
                             STORMFLY_500MM,
