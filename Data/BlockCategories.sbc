@@ -12,7 +12,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
 
                 <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
 
@@ -23,6 +23,8 @@
                 <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
                 <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
                 <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
+
+                <string>LargeMissileTurret/HERMES_125Casemate</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
             </ItemIds>
@@ -38,7 +40,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
 
                 <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
@@ -49,6 +51,8 @@
                 <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
                 <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
                 <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
+
+                <string>LargeMissileTurret/HERMES_125Casemate</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 
@@ -69,7 +73,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
 
                 <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
@@ -80,6 +84,8 @@
                 <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
                 <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
                 <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
+
+                <string>LargeMissileTurret/HERMES_125Casemate</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 
@@ -96,7 +102,7 @@
             <ItemIds>
                 <string>LargeGatlingTurret/VULCAN_PointDefenseCannon</string>
                 <string>LargeMissileTurret/MARLIN_57mmBoforTurret</string>
-                <string>LargeMissileTurret/CHURCHHILL_25mmAdenTurret</string>
+                <string>LargeGatlingTurret/CHURCHHILL_25mmAdenTurret</string>
 
                 <string>LargeMissileTurret/HORNET_SwarmerMissileSystem</string>
                 
@@ -107,6 +113,8 @@
                 <string>LargeMissileTurret/FULCRUM_500mmAutoCannon</string>
                 <string>LargeMissileTurret/RAPTURE_Twin500AutoCannon</string>
                 <string>LargeMissileTurret/STORMFLY_Triple500AutoCannon</string>
+
+                <string>LargeMissileTurret/HERMES_125Casemate</string>
 
                 <string>SmallMissileLauncher/GOLIATH_Fixed_370_AutoCannon</string>
 

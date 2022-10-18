@@ -74,5 +74,28 @@
         <ReloadTime>5000</ReloadTime>
       </Weapon>
 
+      <!-- || Casemates || -->
+
+         <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>125Casemate</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="30" ShootSoundName="125mmCannon" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
+            <DeviateShotAngle>0.01</DeviateShotAngle>
+            <ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
+            <NoAmmoSoundName>WepShipRailgunNoAmmo</NoAmmoSoundName>
+            <Effects>
+                <Effect Action="Shoot" Dummy="Muzzle_Missile_001" Particle="SOBST_AutoCannon_Muzzleblast" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true" OffsetX="0" OffsetY="0" OffsetZ="0"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="APBC_125MM_Shell" />
+                <AmmoMagazine Subtype="HESH_125MM_Shell" />
+            </AmmoMagazines>
+            <ReloadTime>5000</ReloadTime>
+        </Weapon>
+
+
   </Weapons>
 </Definitions>

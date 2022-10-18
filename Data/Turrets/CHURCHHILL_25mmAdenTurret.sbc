@@ -52,6 +52,8 @@ Range: 2000m
 				<Model BuildPercentUpperBound="1.00" File="Models\CHURCHHILL_25mmAdenTurret\CHURCHHILL_25mmAdenTurret_BS2.mwm"/>
 			</BuildProgressModels>
 			<BlockPairName>CHURCHHILL_25mmAdenTurret</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Light</EdgeType>
 			<BuildTimeSeconds>50</BuildTimeSeconds>
 			<WeaponDefinitionId Subtype="CHURCHHILL_25MM" />
