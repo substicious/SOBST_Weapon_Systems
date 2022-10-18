@@ -28,7 +28,7 @@ namespace Scripts {
                     
                  },
                 Muzzles = new[] {
-                    "Muzzle_Missile_001", // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
+                    "muzzle_missile_1", // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
                 },
                 Ejector = "", // Optional; empty from which to eject "shells" if specified.
                 Scope = "", // Where line of sight checks are performed from. Must be clear of block collision.
@@ -157,7 +157,7 @@ namespace Scripts {
                     {
                         Name = "Muzzle_Flash_LargeCalibre", // SubtypeId of muzzle particle effect.
                         Color = Color(red: 20, green: 20, blue: 20, alpha: 1), // Deprecated, set color in particle sbc.
-                        Offset = Vector(x: 0, y: 0, z: -10), // Offsets the effect from the muzzle empty.
+                        Offset = Vector(x: 0, y: 0, z: 0.2), // Offsets the effect from the muzzle empty.
                         Extras = new ParticleOptionDef
                         {
                             Loop = false, // Set this to the same as in the particle sbc!
@@ -205,8 +205,8 @@ namespace Scripts {
                     
                  },
                 Muzzles = new[] {
-                    "Muzzle_Missile_001",
-                    "Muzzle_Missile_002", // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
+                    "muzzle_missile_1",
+                    "muzzle_missile_2", // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
                 },
                 Ejector = "", // Optional; empty from which to eject "shells" if specified.
                 Scope = "", // Where line of sight checks are performed from. Must be clear of block collision.
@@ -335,7 +335,7 @@ namespace Scripts {
                     {
                         Name = "Muzzle_Flash_LargeCalibre", // SubtypeId of muzzle particle effect.
                         Color = Color(red: 20, green: 20, blue: 20, alpha: 1), // Deprecated, set color in particle sbc.
-                        Offset = Vector(x: 0, y: 0, z: -10), // Offsets the effect from the muzzle empty.
+                        Offset = Vector(x: 0, y: 0, z: 0.2), // Offsets the effect from the muzzle empty.
                         Extras = new ParticleOptionDef
                         {
                             Loop = false, // Set this to the same as in the particle sbc!
@@ -382,9 +382,9 @@ namespace Scripts {
                     
                  },
                 Muzzles = new[] {
-                    "Muzzle_Missile_001",
-                    "Muzzle_Missile_002",
-                    "Muzzle_Missile_003" // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
+                    "muzzle_missile_1",
+                    "muzzle_missile_2",
+                    "muzzle_missile_3" // Where your Projectiles spawn. Use numbers not Letters. IE Muzzle_01 not Muzzle_A
                 },
                 Ejector = "", // Optional; empty from which to eject "shells" if specified.
                 Scope = "", // Where line of sight checks are performed from. Must be clear of block collision.
@@ -513,7 +513,7 @@ namespace Scripts {
                     {
                         Name = "Muzzle_Flash_LargeCalibre", // SubtypeId of muzzle particle effect.
                         Color = Color(red: 20, green: 20, blue: 20, alpha: 1), // Deprecated, set color in particle sbc.
-                        Offset = Vector(x: 0, y: 0, z: -10), // Offsets the effect from the muzzle empty.
+                        Offset = Vector(x: 0, y: 0, z: 0.2), // Offsets the effect from the muzzle empty.
                         Extras = new ParticleOptionDef
                         {
                             Loop = false, // Set this to the same as in the particle sbc!
@@ -523,14 +523,14 @@ namespace Scripts {
                     },
                     Effect2 = new ParticleDef
                     {
-                        Name = "",
-                        Color = Color(red: 0, green: 0, blue: 0, alpha: 1),
-                        Offset = Vector(x: 0, y: 0, z: 0),
+                        Name = "", // SubtypeId of muzzle particle effect.
+                        Color = Color(red: 20, green: 20, blue: 20, alpha: 1), // Deprecated, set color in particle sbc.
+                        Offset = Vector(x: 0, y: 0, z: 0), // Offsets the effect from the muzzle empty.
                         Extras = new ParticleOptionDef
                         {
                             Loop = false, // Set this to the same as in the particle sbc!
-                            Restart = false,
-                            Scale = 1f,
+                            Restart = false, // Whether to end a looping effect instantly when firing stops.
+                            Scale = 1.5f, // Scale of effect.
                         },
                     },
                 },

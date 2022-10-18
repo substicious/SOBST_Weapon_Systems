@@ -312,9 +312,9 @@ namespace Scripts
                         {
                             Loop = false,
                             Restart = false,
-                            MaxDistance = 5,
-                            MaxDuration = 1,
-                            Scale = 0.10f,
+                            MaxDistance = 50,
+                            MaxDuration = 5,
+                            Scale = 0.20f,
                         },
                     },
                     Hit = new ParticleDef
@@ -354,7 +354,7 @@ namespace Scripts
                         Enable = true,
                         Length = 10f, //
                         Width = 0.5f, //
-                        Color = Color(red: 60f, green: 20f, blue: 20f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 0.1f, green: 0.2f, blue: 1f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -1493,16 +1493,16 @@ namespace Scripts
                 {
                     Ammo = new ParticleDef
                     {
-                        Name = "", //ShipWelderArc
+                        Name = "Smoke_Missile", //ShipWelderArc
                         Color = Color(red: 1f, green: 1f, blue: 1f, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
                         Extras = new ParticleOptionDef
                         {
                             Loop = false,
                             Restart = false,
-                            MaxDistance = 5,
-                            MaxDuration = 1,
-                            Scale = 0.20f,
+                            MaxDistance = 50,
+                            MaxDuration = 5,
+                            Scale = 0.60f,
                         },
                     },
                     Hit = new ParticleDef
@@ -1542,7 +1542,7 @@ namespace Scripts
                         Enable = true,
                         Length = 15f,
                         Width = 0.8f,
-                        Color = Color(red: 0f, green: 2f, blue: 10f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 0.1f, green: 0.2f, blue: 1f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -1889,16 +1889,16 @@ namespace Scripts
                 {
                     Ammo = new ParticleDef
                     {
-                        Name = "", //ShipWelderArc
+                        Name = "Smoke_Missile", //ShipWelderArc
                         Color = Color(red: 1f, green: 1f, blue: 1f, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
                         Extras = new ParticleOptionDef
                         {
                             Loop = false,
                             Restart = false,
-                            MaxDistance = 5,
-                            MaxDuration = 1,
-                            Scale = 0.20f,
+                            MaxDistance = 50,
+                            MaxDuration = 5,
+                            Scale = 0.60f,
                         },
                     },
                     Hit = new ParticleDef
@@ -1938,7 +1938,7 @@ namespace Scripts
                         Enable = true,
                         Length = 15f,
                         Width = 0.8f,
-                        Color = Color(red: 0f, green: 80f, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 0.1f, green: 1f, blue: 0.1f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -2285,16 +2285,16 @@ namespace Scripts
                 {
                     Ammo = new ParticleDef
                     {
-                        Name = "", //ShipWelderArc
+                        Name = "Smoke_Missile", //ShipWelderArc
                         Color = Color(red: 1f, green: 1f, blue: 1f, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
                         Extras = new ParticleOptionDef
                         {
                             Loop = false,
                             Restart = false,
-                            MaxDistance = 5,
-                            MaxDuration = 1,
-                            Scale = 0.20f,
+                            MaxDistance = 50,
+                            MaxDuration = 5,
+                            Scale = 0.60f,
                         },
                     },
                     Hit = new ParticleDef
@@ -2334,7 +2334,7 @@ namespace Scripts
                         Enable = true,
                         Length = 15f,
                         Width = 0.8f,
-                        Color = Color(red: 80f, green: 0f, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 1f, green: 1f, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -3126,7 +3126,7 @@ namespace Scripts
                         Enable = true,
                         Length = 5f,
                         Width = 0.2f,
-                        Color = Color(red: 150f, green: 1f, blue: 1f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 20f, green: 1f, blue: 1f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -3522,7 +3522,7 @@ namespace Scripts
                         Enable = true,
                         Length = 5f,
                         Width = 0.2f,
-                        Color = Color(red: 0f, green: 150f, blue: 60f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Color = Color(red: 0f, green: 10f, blue: 30f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -3917,9 +3917,9 @@ namespace Scripts
                     Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 10f, //
-                        Width = 0.5f, //
-                        Color = Color(red: 60f, green: 20f, blue: 20f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Length = 7f, //
+                        Width = 0.2f, //
+                        Color = Color(red: 10f, green: 6f, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -4315,8 +4315,8 @@ namespace Scripts
                     {
                         Enable = true,
                         Length = 10f, //
-                        Width = 0.5f, //
-                        Color = Color(red: 60f, green: 20f, blue: 20f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Width = 0.3f, //
+                        Color = Color(red: 0.6f, green: 0.6f, blue: 8f, alpha: 1f), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
