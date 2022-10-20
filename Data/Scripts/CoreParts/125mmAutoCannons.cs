@@ -644,8 +644,8 @@ namespace Scripts {
                     EnergyPriority = 0, // Deprecated.
                     MuzzleCheck = false, // Whether the weapon should check LOS from each individual muzzle in addition to the scope.
                     Debug = false, // Force enables debug mode.
-                    RestrictionRadius = 1, // Prevents other blocks of this type from being placed within this distance of the centre of the block.
-                    CheckInflatedBox = true, // If true, the above distance check is performed from the edge of the block instead of the centre.
+                    RestrictionRadius = 0, // Prevents other blocks of this type from being placed within this distance of the centre of the block.
+                    CheckInflatedBox = false, // If true, the above distance check is performed from the edge of the block instead of the centre.
                     CheckForAnyWeapon = true, // If true, the check will fail if ANY weapon is present, not just weapons of the same subtype.
                 },
                 Loading = new LoadingDef
