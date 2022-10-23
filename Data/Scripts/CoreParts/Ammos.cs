@@ -36,7 +36,7 @@ namespace Scripts
             AmmoRound = "125mm Armor Piercing Ballistic Cap Shell", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 15000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 4000f, // Direct damage; one steel plate is worth 100.
             Mass = 25f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 800f, // Recoil. This is applied to the Parent Grid.
@@ -432,7 +432,7 @@ namespace Scripts
             AmmoRound = "125mm High Explosive Squash Head Shell", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 2000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 200f, // Direct damage; one steel plate is worth 100.
             Mass = 40f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 800f, // Recoil. This is applied to the Parent Grid.
@@ -455,9 +455,9 @@ namespace Scripts
             },
             Fragment = new FragmentDef // Formerly known as Shrapnel. Spawns specified ammo fragments on projectile death (via hit or detonation).
             {
-                AmmoRound = "HESH_125MM_FRAG", // AmmoRound field of the ammo to spawn.
+                AmmoRound = "125mm HESH Fragments", // AmmoRound field of the ammo to spawn.
                 Fragments = 10, // Number of projectiles to spawn.
-                Degrees = 20, // Cone in which to randomize direction of spawned projectiles.
+                Degrees = 30, // Cone in which to randomize direction of spawned projectiles.
                 Reverse = false, // Spawn projectiles backward instead of forward.
                 DropVelocity = false, // fragments will not inherit velocity from parent.
                 Offset = 0f, // Offsets the fragment spawn by this amount, in meters (positive forward, negative for backwards), value is read from parent ammo type.
@@ -571,8 +571,8 @@ namespace Scripts
                 EndOfLife = new EndOfLifeDef
                 {
                     Enable = true,
-                    Radius = 5f, // Radius of AOE effect, in meters.
-                    Damage = 15000f,
+                    Radius = 3f, // Radius of AOE effect, in meters.
+                    Damage = 5000f,
                     Depth = 0, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
@@ -828,7 +828,7 @@ namespace Scripts
             AmmoRound = "125mm HESH Fragments", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 2000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 500f, // Direct damage; one steel plate is worth 100.
             Mass = 100f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 800f, // Recoil. This is applied to the Parent Grid.
@@ -968,7 +968,7 @@ namespace Scripts
                 {
                     Enable = false,
                     Radius = 5f, // Radius of AOE effect, in meters.
-                    Damage = 50000f,
+                    Damage = 0f,
                     Depth = 0, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
@@ -1056,7 +1056,7 @@ namespace Scripts
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 MaxLifeTime = 900, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). time begins at 0 and time must EXCEED this value to trigger "time > maxValue". Please have a value for this, It stops Bad things.
                 AccelPerSec = 0f, // Meters Per Second. This is the spawning Speed of the Projectile, and used by turning.
-                DesiredSpeed = 1000, // voxel phasing if you go above 5100
+                DesiredSpeed = 1, // voxel phasing if you go above 5100
                 MaxTrajectory = 500f, // Max Distance the projectile or beam can Travel.
                 DeaccelTime = 0, // 0 is disabled, a value causes the projectile to come to rest overtime, (Measured in game ticks, 60 = 1 second)
                 GravityMultiplier = 0f, // Gravity multiplier, influences the trajectory of the projectile, value greater than 0 to enable. Natural Gravity Only.
@@ -1143,10 +1143,10 @@ namespace Scripts
                     WidthVariance = Random(start: 0f, end: 0f), // adds random value to default width (negatives shrinks width)
                     Tracer = new TracerBaseDef
                     {
-                        Enable = false,
-                        Length = 15f,
-                        Width = 0.8f,
-                        Color = Color(red: 80f, green: 0f, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Enable = true,
+                        Length = 8f,
+                        Width = 0.02f,
+                        Color = Color(red: 1f, green: 0.2f, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -1224,7 +1224,7 @@ namespace Scripts
             AmmoRound = "370mm Armor Piercing Ballistic Cap Shell", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 20000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 10000f, // Direct damage; one steel plate is worth 100.
             Mass = 100f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 3000f, // Recoil. This is applied to the Parent Grid.
@@ -1364,7 +1364,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 5f, // Radius of AOE effect, in meters.
-                    Damage = 50000f,
+                    Damage = 5000f,
                     Depth = 0, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
@@ -1620,7 +1620,7 @@ namespace Scripts
             AmmoRound = "370mm Armor Piercing Depleted Uranium Shell", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 18000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 12000f, // Direct damage; one steel plate is worth 100.
             Mass = 100f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 3000f, // Recoil. This is applied to the Parent Grid.
@@ -1760,7 +1760,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 5f, // Radius of AOE effect, in meters.
-                    Damage = 25000f,
+                    Damage = 5000f,
                     Depth = 0, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
@@ -2016,7 +2016,7 @@ namespace Scripts
             AmmoRound = "500mm Armor Piercing Pin Capped Shell", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 30000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 15000f, // Direct damage; one steel plate is worth 100.
             Mass = 100f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 3000f, // Recoil. This is applied to the Parent Grid.
@@ -2156,7 +2156,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 5f, // Radius of AOE effect, in meters.
-                    Damage = 50000f,
+                    Damage = 10000f,
                     Depth = 0, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
@@ -2552,7 +2552,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 8f, // Radius of AOE effect, in meters.
-                    Damage = 500000f,
+                    Damage = 40000f,
                     Depth = 0, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
@@ -2808,7 +2808,7 @@ namespace Scripts
             AmmoRound = "500mm High Explosive Squash Head Shell", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 10000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 1000f, // Direct damage; one steel plate is worth 100.
             Mass = 100f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 3000f, // Recoil. This is applied to the Parent Grid.
@@ -2831,9 +2831,9 @@ namespace Scripts
             },
             Fragment = new FragmentDef // Formerly known as Shrapnel. Spawns specified ammo fragments on projectile death (via hit or detonation).
             {
-                AmmoRound = "HESH_500MM_FRAG", // AmmoRound field of the ammo to spawn.
-                Fragments = 10, // Number of projectiles to spawn.
-                Degrees = 20, // Cone in which to randomize direction of spawned projectiles.
+                AmmoRound = "500mm HESH Fragments", // AmmoRound field of the ammo to spawn.
+                Fragments = 30, // Number of projectiles to spawn.
+                Degrees = 30, // Cone in which to randomize direction of spawned projectiles.
                 Reverse = false, // Spawn projectiles backward instead of forward.
                 DropVelocity = false, // fragments will not inherit velocity from parent.
                 Offset = 0f, // Offsets the fragment spawn by this amount, in meters (positive forward, negative for backwards), value is read from parent ammo type.
@@ -2948,7 +2948,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 5f, // Radius of AOE effect, in meters.
-                    Damage = 50000f,
+                    Damage = 20000f,
                     Depth = 0, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
@@ -3520,9 +3520,9 @@ namespace Scripts
                     Tracer = new TracerBaseDef
                     {
                         Enable = true,
-                        Length = 15f,
-                        Width = 0.8f,
-                        Color = Color(red: 80f, green: 0f, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Length = 8f,
+                        Width = 0.05f,
+                        Color = Color(red: 1f, green: 0.2f, blue: 0f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -3600,7 +3600,7 @@ namespace Scripts
             AmmoRound = "CJHV-40x127mm Standard Rounds", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 150f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 80f, // Direct damage; one steel plate is worth 100.
             Mass = 3f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 7f, // Recoil. This is applied to the Parent Grid.
@@ -3996,7 +3996,7 @@ namespace Scripts
             AmmoRound = "CJHV-40x127mm Depleted Uranium Rounds", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 250f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 130f, // Direct damage; one steel plate is worth 100.
             Mass = 3f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 7f, // Recoil. This is applied to the Parent Grid.
@@ -4386,14 +4386,13 @@ namespace Scripts
             }, // Don't edit below this line
         };
 
-        // MARLIN Ammos
         private AmmoDef MARLIN_57_HESH => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "MARLIN_57_HESH", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
             AmmoRound = "57x438mm HESH Ammo Clip", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 200f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 80f, // Direct damage; one steel plate is worth 100.
             Mass = 25f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 3000f, // Recoil. This is applied to the Parent Grid.
@@ -4533,7 +4532,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 3f, // Radius of AOE effect, in meters.
-                    Damage = 1000f,
+                    Damage = 500f,
                     Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Curve, //.NoFalloff applies the same damage to all blocks in radius
@@ -4616,7 +4615,7 @@ namespace Scripts
             },
             Trajectory = new TrajectoryDef
             {
-                Guidance = None, // None, Remote, TravelTo, Smart, DetectTravelTo, DetectSmart, DetectFixed
+                Guidance = TravelTo, // None, Remote, TravelTo, Smart, DetectTravelTo, DetectSmart, DetectFixed
                 TargetLossDegree = 80f, // Degrees, Is pointed forward
                 TargetLossTime = 0, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..).
                 MaxLifeTime = 900, // 0 is disabled, Measured in game ticks (6 = 100ms, 60 = 1 seconds, etc..). time begins at 0 and time must EXCEED this value to trigger "time > maxValue". Please have a value for this, It stops Bad things.
@@ -4783,14 +4782,13 @@ namespace Scripts
             }, // Don't edit below this line
         };
 
-        // CHURCHHILL Ammos
         private AmmoDef CHURCHHILL_25MM => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "CHURCHHILL_Type25", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
             AmmoRound = "TYPE-25 - Standard 25x131mm Ammo Box", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 800f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 300f, // Direct damage; one steel plate is worth 100.
             Mass = 25f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 3000f, // Recoil. This is applied to the Parent Grid.
@@ -4930,7 +4928,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 2f, // Radius of AOE effect, in meters.
-                    Damage = 300f,
+                    Damage = 200f,
                     Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Curve, //.NoFalloff applies the same damage to all blocks in radius
@@ -5073,7 +5071,7 @@ namespace Scripts
                     },
                     Hit = new ParticleDef
                     {
-                        Name = "BlockDestroyedExplosion_Large",
+                        Name = "BlockDestroyedExplosion_Small",
                         ApplyToShield = true,
                         Color = Color(red: 1, green: 1, blue: 1, alpha: 1),
                         Offset = Vector(x: 0, y: 0, z: 0),
@@ -5180,14 +5178,13 @@ namespace Scripts
             }, // Don't edit below this line
         };
 
-        // HORNET Ammos
         private AmmoDef HORNET_80x652_Standard => new AmmoDef // Your ID, for slotting into the Weapon CS
         {
             AmmoMagazine = "HORNET_80x652_Standard", // SubtypeId of physical ammo magazine. Use "Energy" for weapons without physical ammo.
             AmmoRound = "HORNET Standard", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 300f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 50f, // Direct damage; one steel plate is worth 100.
             Mass = 25f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 3000f, // Recoil. This is applied to the Parent Grid.
