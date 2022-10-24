@@ -18,7 +18,7 @@ namespace Scripts
                             FULCRUM_500MM,
                             RAPTURE_500MM,
                             STORMFLY_500MM,
-                            VULCAN_TURRET,
+                            VULCAN_PointDefenseCannon,
                             VULCAN_STATIC,
                             MARLIN_BoforTurret,
                             CHURCHHILL_25mmAdenTurret,
