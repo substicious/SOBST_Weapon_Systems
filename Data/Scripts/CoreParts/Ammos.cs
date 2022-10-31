@@ -4709,8 +4709,8 @@ namespace Scripts
                     {
                         Enable = true,
                         Length = 5f,
-                        Width = 0.2f,
-                        Color = Color(red: 20f, green: 1f, blue: 1f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Width = 0.1f,
+                        Color = Color(red: 5f, green: 1f, blue: 1f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
@@ -5105,8 +5105,8 @@ namespace Scripts
                     {
                         Enable = true,
                         Length = 5f,
-                        Width = 0.2f,
-                        Color = Color(red: 0f, green: 10f, blue: 30f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
+                        Width = 0.1f,
+                        Color = Color(red: 0f, green: 5f, blue: 15f, alpha: 1), // RBG 255 is Neon Glowing, 100 is Quite Bright.
                         VisualFadeStart = 0, // Number of ticks the weapon has been firing before projectiles begin to fade their color
                         VisualFadeEnd = 0, // How many ticks after fade began before it will be invisible.
                         Textures = new[] {// WeaponLaser, ProjectileTrailLine, WarpBubble, etc..
