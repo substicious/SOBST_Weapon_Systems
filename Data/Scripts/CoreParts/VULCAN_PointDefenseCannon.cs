@@ -11,7 +11,7 @@ using static Scripts.Structure.WeaponDefinition.HardPointDef.HardwareDef.Hardwar
 namespace Scripts {   
     partial class Parts {
         // Don't edit above this line
-        WeaponDefinition VULCAN_TURRET => new WeaponDefinition
+        WeaponDefinition VULCAN_PointDefenseCannon => new WeaponDefinition
         {
             Assignments = new ModelAssignmentsDef
             {
@@ -41,7 +41,7 @@ namespace Scripts {
             Targeting = new TargetingDef
             {
                 Threats = new[] {
-                    Grids, Characters, Projectiles, Meteors,
+                    Grids, Characters, Projectiles,
                 },
                 SubSystems = new[] {
                     Thrust, Utility, Offense, Power, Production, Any, // Subsystem targeting priority: Offense, Utility, Power, Production, Thrust, Jumping, Steering, Any

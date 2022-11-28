@@ -185,7 +185,9 @@ namespace Scripts {
             },
             Ammos = new[] {
                 APBC_370MM_Shell,
-                APDU_370MM_Shell
+                APDU_370MM_Shell,
+				HESH_370MM_Shell,
+				HESH_370MM_FRAG
             },
             //Animations = Weapon75_Animation,
             //Upgrades = UpgradeModules,

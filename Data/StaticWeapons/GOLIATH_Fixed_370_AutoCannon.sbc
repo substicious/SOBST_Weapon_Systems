@@ -7,12 +7,12 @@
 				<SubtypeId>GOLIATH_Fixed_370_AutoCannon</SubtypeId>
 			</Id>
 			<DisplayName>"GOLIATH" 370mm Static AutoCannon</DisplayName>
-			<Description>Range::2 km
+			<Description>The replacement of the Little David. This static cannon can output a dangerous amount of firepower.
 			
-Ammunition Required::
--> APBC-370 - Armor Piercing Ballistic Cap Shell
--> APDU-370 - Armor Piercing Depleted Uranium Shell
--> HESH-370 - High Explosive Squashed Head Shell</Description>
+Ammo: APBC-370, APDU-370, HESH-370
+			
+Range: 5000m
+			</Description>
 			<Icon>Textures\GUI\Icons\GOLIATH_Fixed_370_AutoCannon.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<GuiVisible>false</GuiVisible>
