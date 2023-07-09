@@ -7,13 +7,7 @@
 				<SubtypeId>VULCAN_GatlingGun</SubtypeId>
 			</Id>
 			<DisplayName>"VULCAN" Static Gatling Gun</DisplayName>
-			<Description>A high rate of fire cannon with a high capacity ammo drum.
-
-Ammo: 40x127mm Copper Jacket High Velocity Rounds
-40x127mm Copper Jacket High Velocity Depleted Uranium Rounds
-
-Range: 1500m			
-			</Description>
+			<Description></Description>
 			<Icon>Textures\GUI\Icons\VULCAN_GatlingGun.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -29,6 +23,7 @@ Range: 1500m
 				<Component Subtype="Computer" Count="1" />
 				<Component Subtype="SteelPlate" Count="15" />
 			</Components>
+			<GuiVisible>false</GuiVisible>
 			<CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
 				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
@@ -37,8 +32,20 @@ Range: 1500m
 				<Model BuildPercentUpperBound="0.50" File="Models\VULCAN_GatlingGun\VULCAN_GatlingGun_BS1.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\VULCAN_GatlingGun\VULCAN_GatlingGun_BS2.mwm"/>
 			</BuildProgressModels>
+			<VoxelPlacement>
+				<StaticMode>
+				<PlacementMode>OutsideVoxel</PlacementMode>
+				<MaxAllowed>0.2</MaxAllowed>
+				<MinAllowed>0</MinAllowed>
+				</StaticMode>
+				<DynamicMode>
+				<PlacementMode>OutsideVoxel</PlacementMode>
+				<MaxAllowed>0.2</MaxAllowed>
+				<MinAllowed>0.01</MinAllowed>
+				</DynamicMode>
+			</VoxelPlacement>
 			<BlockPairName>VULCAN_GatlingGun</BlockPairName>
-			<Center x="0" y="0" z="4" />
+			
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<BuildTimeSeconds>13</BuildTimeSeconds>
@@ -51,8 +58,11 @@ Range: 1500m
 			<DamagedSound>ParticleWeapExpl</DamagedSound>
 			<DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
 			<DestroySound>WepSmallWarheadExpl</DestroySound>
-			<PCU>100</PCU>
-			<InventoryFillFactorMin>0.25</InventoryFillFactorMin>
+			<PCU>80</PCU>
+            <InventoryFillFactorMin>.6</InventoryFillFactorMin>
+            <TargetingGroups>
+                <string>Weapons</string>
+            </TargetingGroups>
 		</Definition>
 	</CubeBlocks>
 </Definitions>
