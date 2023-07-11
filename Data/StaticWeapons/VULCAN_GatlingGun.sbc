@@ -45,7 +45,7 @@
 				</DynamicMode>
 			</VoxelPlacement>
 			<BlockPairName>VULCAN_GatlingGun</BlockPairName>
-			
+			<GuiVisible>false</GuiVisible>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<BuildTimeSeconds>13</BuildTimeSeconds>
